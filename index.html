@@ -294,7 +294,9 @@
   footer a:hover{color:#fff}
 
 
+
   /* sealed board (generated) */
+  section[id]{scroll-margin-top:78px}  /* so the sticky nav never covers a jumped-to heading */
   .board-sec{background:var(--paper);padding-top:clamp(56px,8vw,96px);padding-bottom:clamp(56px,8vw,96px)}
   .board-sec h2{font-size:clamp(28px,4.2vw,44px);font-weight:800;max-width:20ch;margin-top:10px}
   .board-lead{font-family:var(--serif);font-size:19px;color:var(--ink-2);max-width:60ch;margin:18px 0 0}
@@ -661,6 +663,7 @@
 </section>
 
 
+
 <!-- SEALED BOARD (generated: scripts/build_site_board.py) -->
 <section id="board" class="board-sec">
   <div class="wrap">
@@ -845,7 +848,13 @@
 <script>
 </script>
 <script>
+</script>
+<script>
   (function(){
+    // deep-link fix: lazy images change page height after the browser's initial anchor jump,
+    // so a cold load of /#board lands at the hero. Re-scroll to the hash once everything loads.
+    function rescroll(){ if(location.hash){ var el=document.querySelector(location.hash); if(el){ el.scrollIntoView(); } } }
+    window.addEventListener('load', function(){ setTimeout(rescroll, 60); });
     var fbs=document.querySelectorAll('.fb'), trs=document.querySelectorAll('.board-tbl tbody tr');
     fbs.forEach(function(b){b.addEventListener('click',function(){
       fbs.forEach(function(x){x.classList.remove('active')}); b.classList.add('active');
