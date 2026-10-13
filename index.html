@@ -367,9 +367,48 @@
   .is-lab{font-family:var(--display);font-weight:700;font-size:12px;color:var(--on-dark-2);width:82px;flex:none;text-align:right}
   .is-bar{display:flex;flex:1;height:30px;border-radius:7px;overflow:hidden}
   .seg{display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:700;font-size:12px;color:#fff;white-space:nowrap;min-width:0}
-  .seg.sF{background:var(--teal)} .seg.sD{background:var(--accent)} .seg.sS{background:#4a5260;color:var(--on-dark-2)}
+  .seg.sF{background:var(--teal)} .seg.sD{background:var(--accent)} .seg.sS{background:#4a5260;color:var(--on-dark-2)} .seg.sA{background:var(--amber-bright);color:#2a1f08}
   .is-delta{margin-top:14px;font-family:var(--display);font-weight:800;font-size:15px;color:var(--teal-bright)}
   .int-foot{font-family:var(--serif);font-size:14px;color:var(--on-dark-2);max-width:78ch;margin:26px 0 0;line-height:1.55;border-top:1px solid rgba(255,255,255,.12);padding-top:16px}
+
+  /* candidate explorer — dynamic search inside the sealed board */
+  .explorer{margin-top:clamp(34px,5vw,54px);padding-top:clamp(30px,4vw,44px);border-top:1px solid var(--line)}
+  .explorer .eyebrow{color:var(--accent-ink)}
+  .exp-head h3{font-family:var(--display);font-weight:800;font-size:clamp(22px,3vw,30px);color:var(--ink);margin:10px 0 0;max-width:24ch;letter-spacing:-.01em}
+  .exp-sub{font-family:var(--serif);font-size:16.5px;color:var(--muted);max-width:66ch;margin:14px 0 0}
+  .exp-search{display:flex;gap:10px;margin:22px 0 0;max-width:620px;flex-wrap:wrap}
+  .exp-search input{flex:1;min-width:240px;font-family:var(--display);font-weight:600;font-size:16px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:9px;padding:13px 16px;box-shadow:var(--shadow)}
+  .exp-search input::placeholder{color:var(--muted);font-weight:500}
+  .exp-search input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(216,69,47,.15)}
+  .exp-search .btn{flex:none}
+  .exp-sugg{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}
+  .exp-chip{font-family:var(--display);font-weight:700;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer;transition:all .14s}
+  .exp-chip:hover{border-color:var(--accent);color:var(--accent-ink)}
+  .exp-chip .q{color:var(--muted);font-weight:600;margin-left:5px;font-variant-numeric:tabular-nums}
+  .exp-miss{font-family:var(--serif);font-size:15.5px;color:var(--muted);margin:16px 0 0}
+  /* dark result panel — the "interior world" look, embedded in the light board */
+  .exp-result{margin-top:26px}
+  .exp-panel{background:var(--navy);background-image:radial-gradient(rgba(242,98,76,.12) 1px,transparent 1.4px);background-size:26px 26px;color:var(--on-dark);border:1px solid var(--navy-2);border-radius:16px;padding:clamp(22px,3vw,34px);box-shadow:var(--shadow-lg)}
+  .exp-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .exp-dist{font-family:var(--display);font-weight:900;font-size:clamp(20px,2.6vw,26px);color:#fff;letter-spacing:-.01em}
+  .exp-dist .off{color:var(--on-dark-2);font-weight:700;font-size:.62em;letter-spacing:.02em}
+  .exp-region{font-family:var(--serif);font-size:15.5px;color:#cdd6e2;margin-top:3px}
+  .exp-call{font-family:var(--display);font-weight:800;font-size:12.5px;text-transform:uppercase;letter-spacing:.05em;padding:6px 13px;border-radius:999px;white-space:nowrap;flex:none}
+  .exp-call.cD{background:var(--teal);color:#fff} .exp-call.cR{background:var(--accent);color:#fff} .exp-call.cT{background:var(--amber-bright);color:#2a1f08} .exp-call.cS{background:#5b6b8c;color:#fff}
+  .exp-proj{margin:20px 0 0;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:20px}
+  .exp-proj .pj-tag{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:11.5px;color:var(--accent-bright);margin-bottom:12px}
+  .pj-row{display:flex;align-items:center;gap:10px;margin-top:9px}
+  .pj-name{font-family:var(--display);font-weight:700;font-size:13.5px;color:#eef2f7;width:clamp(118px,22vw,190px);flex:none;display:flex;align-items:center;gap:8px}
+  .pj-dot{width:10px;height:10px;border-radius:2px;flex:none;transform:rotate(45deg)}
+  .pj-dot.d{background:var(--teal-bright)} .pj-dot.r{background:var(--accent-bright)} .pj-dot.a{background:var(--amber-bright)}
+  .pj-meter{flex:1;height:26px;background:rgba(255,255,255,.08);border-radius:6px;overflow:hidden;position:relative}
+  .pj-fill{position:absolute;inset:0 auto 0 0;border-radius:6px}
+  .pj-fill.d{background:var(--teal)} .pj-fill.r{background:var(--accent)} .pj-fill.a{background:var(--amber-bright)}
+  .pj-val{font-family:var(--display);font-weight:800;font-size:14px;color:#fff;width:54px;flex:none;text-align:right;font-variant-numeric:tabular-nums}
+  .exp-band{font-family:var(--serif);font-size:13.5px;color:var(--on-dark-2);margin-top:14px;line-height:1.5}
+  .exp-band b{color:#fff;font-family:var(--display);font-weight:700;font-size:13px}
+  .exp-panel .int-grid{margin-top:20px}
+  @media (max-width:820px){.exp-panel .int-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -707,6 +746,22 @@
       <li><b>Data, exact.</b> The 2024 presidential anchor is exact-count (The Downballot series; CA from the official AB604 plan and the Statewide Database). Rosters freshness-checked October 13, 2026. For commercial use the CA anchor re-sources from SWDB, Census, and the adopted plan.</li>
       <li><b>This is the accuracy layer.</b> These 151 are the statistical forecast, Scoreboard 1. The reactive what-if engine, Scoreboard 2, is a separate product and is not represented in these numbers. See it below.</li>
     </ul>
+
+    <!-- CANDIDATE EXPLORER (dynamic: data/race-narratives.json) -->
+    <div class="explorer reveal" id="explorer">
+      <span class="eyebrow">Look inside any race</span>
+      <div class="exp-head">
+        <h3>Search a candidate. See the sealed call, and the reasoning underneath it.</h3>
+        <p class="exp-sub">Type any candidate or district. You get our sealed projection for that race, one representative agent reasoning through the ballot, and what a late event does to the vote. All 151 sealed races are here, plus the same-party races where a party model goes blind, including AD-12, our validated Lucan reference. The projection is the sealed statistical call; the reasoning and the shift are illustrative, not the forecast.</p>
+      </div>
+      <form class="exp-search" id="expForm" autocomplete="off" role="search">
+        <input id="expInput" type="text" list="expList" placeholder="Try Foley, Gluesenkamp Perez, CA-13, AD-70&hellip;" aria-label="Search a candidate or district on the sealed board">
+        <datalist id="expList"></datalist>
+        <button type="submit" class="btn btn-dark">Reveal</button>
+      </form>
+      <div class="exp-sugg" id="expSugg"></div>
+      <div class="exp-result" id="expResult" hidden></div>
+    </div>
   </div>
 </section>
 
@@ -979,6 +1034,116 @@
       if(bl)bl.classList.add('live'); if(bt)bt.textContent='LIVE \u2014 grading against certified results as they land.';
       if(blc)blc.textContent=hits+'/'+called+' calls correct';
     }).catch(pre);
+  })();
+</script>
+<script>
+  /* Candidate explorer: search any of the 151 sealed races, reveal the projection + an
+     illustrative agent narrative + the reactive shift. Data: data/race-narratives.json. */
+  (function(){
+    var form=document.getElementById('expForm'); if(!form) return;
+    var input=document.getElementById('expInput'), list=document.getElementById('expList'),
+        sugg=document.getElementById('expSugg'), result=document.getElementById('expResult');
+    var RACES=null, INDEX=[], labelToDist={};
+    function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function surname(n){if(!n)return '';var b=n.replace(/\s*\((?:D|R|NPP|I|OPEN)\)\s*$/,'').trim();var p=b.split(' ');return p[p.length-1];}
+    function norm(s){return String(s||'').toLowerCase().replace(/[^a-z0-9 -]/g,'').trim();}
+
+    function matches(q){
+      q=norm(q); if(!q) return [];
+      var exact=[],starts=[],inc=[];
+      INDEX.forEach(function(e){
+        var toks=e.tokens.map(norm).concat(norm(e.dist));
+        var hit=0;
+        for(var i=0;i<toks.length;i++){ if(toks[i]===q){hit=3;break;} if(toks[i].indexOf(q)===0){hit=Math.max(hit,2);} else if(toks[i].indexOf(q)>-1){hit=Math.max(hit,1);} }
+        if(norm(e.label).indexOf(q)>-1) hit=Math.max(hit,1);
+        if(hit===3)exact.push(e); else if(hit===2)starts.push(e); else if(hit===1)inc.push(e);
+      });
+      return exact.concat(starts,inc);
+    }
+    function seg(pct,cls,label){return '<span class="seg '+cls+'" style="width:'+pct+'%">'+esc(label)+'</span>';}
+    function bars(arr,dn,rn,c2){
+      c2=c2||'sD';
+      var h=seg(arr[0],'sF',dn+' '+arr[0])+seg(arr[1],c2,rn+' '+arr[1]);
+      if(arr[2])h+=seg(arr[2],'sS',arr[2]+'');
+      return h;
+    }
+    function render(dist){
+      var r=RACES[dist]; if(!r) return;
+      var sp=!!r.sameParty, dn=surname(r.d)||'Democrat', rn=surname(r.r)||'Republican';
+      var dS=sp?null:Math.round(r.proj), rS=sp?null:100-dS, barC2=sp?'sA':'sD';
+      var callCls, callTxt, band, projRows;
+      if(sp){
+        callCls='cS'; callTxt='Same-party ('+esc(r.party)+')';
+        band='<b>Same-party '+esc(r.party)+'-vs-'+esc(r.party)+' race.</b> Agent-N brings coalition and turnout intelligence here, not a sealed partisan topline: the 151-race board needs a clean D-vs-R two-way, so same-party races are flagged off it. This is exactly the layer a party-registration poll goes blind on.';
+        if(r.pct){
+          projRows='<div class="pj-row"><span class="pj-name"><span class="pj-dot d"></span>'+esc(r.d)+'</span><span class="pj-meter"><span class="pj-fill d" style="width:'+r.pct[0]+'%"></span></span><span class="pj-val">'+r.pct[0]+'%</span></div>'
+            +'<div class="pj-row"><span class="pj-name"><span class="pj-dot a"></span>'+esc(r.r)+'</span><span class="pj-meter"><span class="pj-fill a" style="width:'+r.pct[1]+'%"></span></span><span class="pj-val">'+r.pct[1]+'%</span></div>';
+        } else { projRows=''; }
+      } else {
+        callCls=r.call==='D'?'cD':(r.call==='R'?'cR':'cT');
+        callTxt=r.call==='Toss-up'?'Toss-up':(r.call==='D'?'Lean / call D':'Lean / call R');
+        var incTxt=r.inc==='OPEN'?'Open seat.':('Incumbent '+r.inc+'.');
+        band=(r.lo!=null&&r.hi!=null)
+          ? '<b>Sealed band</b> R+3 / neutral / D+3: '+r.lo.toFixed(1)+'% &ndash; '+r.hi.toFixed(1)+'% D two-way. '+incTxt+' Locked before the vote; grades itself November 3.'
+          : '<b>Sealed call</b> '+dS+'% D two-way, from a '+(r.g.indexOf('Supervisor')>-1?'precinct conditional-logit map (held-out Spearman 0.921 / 0.738)':'county-level map with a poll-anchored topline')+'. '+incTxt+' Locked before the vote; grades itself November 3.';
+        projRows='<div class="pj-row"><span class="pj-name"><span class="pj-dot d"></span>'+esc(r.d||'Democrat')+'</span><span class="pj-meter"><span class="pj-fill d" style="width:'+dS+'%"></span></span><span class="pj-val">'+dS+'%</span></div>'
+          +'<div class="pj-row"><span class="pj-name"><span class="pj-dot r"></span>'+esc(r.r||'Republican')+'</span><span class="pj-meter"><span class="pj-fill r" style="width:'+rS+'%"></span></span><span class="pj-val">'+rS+'%</span></div>';
+      }
+      var pjTag=sp?(r.pct?'Predicted shares &middot; same-party race':'Same-party race &middot; no sealed partisan topline'):'The sealed projection &middot; D two-way share';
+      var voiceTag=(dist==='AD-12')?'From the sealed Lucan brief &middot; representative agent':(sp?'Illustrative &middot; one representative agent':'Illustrative &middot; one representative agent');
+      var foot=sp
+        ? 'Honest scope: this is a same-party race, so we do not sell a sealed partisan topline here (that method needs D-vs-R). Agent-N instead brings the turnout and coalition map plus what-if scenarios. '+(dist==='AD-12'?'AD-12 is our validated reference campaign; the numbers shown are from the sealed Lucan brief sim.':'The shares and shift shown are illustrative.')+' The reasoning is one representative agent, not a real person.'
+        : 'Honest scope: the projection is our sealed statistical call for this race. The agent reasoning is a plausible, illustrative story (one representative agent composed from the district&rsquo;s structure, not a real person), and the reactive shift is an illustrative scenario, not the forecast. The statistics own the accuracy; this layer shows the reasoning a number cannot.';
+      var html=''
+        +'<div class="exp-panel">'
+        +  '<div class="exp-top"><div><div class="exp-dist">'+esc(r.dist)+' <span class="off">&middot; '+esc(r.office)+'</span></div>'
+        +    '<div class="exp-region">'+esc(r.region)+'</div></div>'
+        +    '<span class="exp-call '+callCls+'">'+esc(callTxt)+'</span></div>'
+        +  '<div class="exp-proj"><div class="pj-tag">'+pjTag+'</div>'
+        +    projRows
+        +    '<div class="exp-band">'+band+'</div></div>'
+        +  '<div class="int-grid">'
+        +    '<div class="int-voice"><div class="iv-tag">'+voiceTag+'</div>'
+        +      '<div class="iv-who">'+esc(r.who)+'</div><blockquote>&ldquo;'+esc(r.voice)+'&rdquo;</blockquote>'
+        +      '<div class="iv-conflict"><span>Inner conflict</span>'+esc(r.conflict)+'</div></div>'
+        +    '<div class="int-shift"><div class="is-tag">The reactive shift</div>'
+        +      '<div class="is-scenario">'+esc(r.scenario)+'</div>'
+        +      '<div class="is-bars">'
+        +        '<div class="is-row"><span class="is-lab">Baseline</span><div class="is-bar">'+bars(r.base,dn,rn,barC2)+'</div></div>'
+        +        '<div class="is-row"><span class="is-lab">After shock</span><div class="is-bar">'+bars(r.shock,dn,rn,barC2)+'</div></div>'
+        +      '</div><div class="is-delta">'+esc(r.delta)+'</div></div>'
+        +  '</div>'
+        +  '<p class="int-foot">'+foot+'</p>'
+        +'</div>';
+      result.innerHTML=html; result.hidden=false;
+      result.scrollIntoView({behavior:'smooth',block:'nearest'});
+    }
+    function showSugg(items,head){
+      if(!items.length){sugg.innerHTML='';return;}
+      sugg.innerHTML=(head?'<span class="exp-miss">'+esc(head)+'</span>':'')
+        +items.slice(0,6).map(function(e){return '<button type="button" class="exp-chip" data-dist="'+esc(e.dist)+'">'+esc(surname(RACES[e.dist].d)||e.dist)+' <span class="q">'+esc(e.dist)+'</span></button>';}).join('');
+    }
+    function go(q){
+      var m=matches(q);
+      if(!m.length){ result.hidden=true; sugg.innerHTML='<span class="exp-miss">No race by that name. The explorer covers all 151 sealed races plus the same-party references (AD-12 Lucan, CA-07, CA-11, CA-40, CA-04). Try a surname, or a district like CA-13 or AD-70.</span>'; return; }
+      if(m.length===1 || norm(m[0].label)===norm(q) || m[0].tokens.map(norm).indexOf(norm(q))>-1){ sugg.innerHTML=''; render(m[0].dist); return; }
+      showSugg(m,'Several matches &mdash; pick one:');
+      // also render the top match so there is always a result
+      render(m[0].dist);
+    }
+    sugg.addEventListener('click',function(e){var b=e.target.closest('.exp-chip'); if(b){input.value=surname(RACES[b.getAttribute('data-dist')].d)||b.getAttribute('data-dist'); sugg.innerHTML=''; render(b.getAttribute('data-dist'));}});
+    form.addEventListener('submit',function(e){e.preventDefault(); go(input.value);});
+    var t; input.addEventListener('input',function(){clearTimeout(t); t=setTimeout(function(){ if(input.value.trim().length>=2){ var m=matches(input.value); showSugg(m,''); } else sugg.innerHTML=''; },140);});
+
+    fetch('data/race-narratives.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(d){
+      if(!d||!d.races){ document.getElementById('explorer').style.display='none'; return; }
+      RACES=d.races; INDEX=d.index||[];
+      list.innerHTML=INDEX.map(function(e){return '<option value="'+esc(e.label)+'">';}).join('');
+      INDEX.forEach(function(e){labelToDist[norm(e.label)]=e.dist;});
+      // starter chips: the marquee races
+      var starters=['AD-12','OC-D5','CA-13','CA-07','WA-03','CA-Gov'].filter(function(x){return RACES[x];});
+      showSugg(starters.map(function(x){return {dist:x};}),'Start with a hot race:');
+    }).catch(function(){ var ex=document.getElementById('explorer'); if(ex) ex.style.display='none'; });
   })();
 </script>
 </body>
