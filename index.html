@@ -295,6 +295,7 @@
 
 
 
+
   /* sealed board (generated) */
   section[id]{scroll-margin-top:78px}  /* so the sticky nav never covers a jumped-to heading */
   .board-sec{background:var(--paper);padding-top:clamp(56px,8vw,96px);padding-bottom:clamp(56px,8vw,96px)}
@@ -664,6 +665,7 @@
 
 
 
+
 <!-- SEALED BOARD (generated: scripts/build_site_board.py) -->
 <section id="board" class="board-sec">
   <div class="wrap">
@@ -855,6 +857,50 @@
     // so a cold load of /#board lands at the hero. Re-scroll to the hash once everything loads.
     function rescroll(){ if(location.hash){ var el=document.querySelector(location.hash); if(el){ el.scrollIntoView(); } } }
     window.addEventListener('load', function(){ setTimeout(rescroll, 60); });
+    var fbs=document.querySelectorAll('.fb'), trs=document.querySelectorAll('.board-tbl tbody tr');
+    fbs.forEach(function(b){b.addEventListener('click',function(){
+      fbs.forEach(function(x){x.classList.remove('active')}); b.classList.add('active');
+      var f=b.getAttribute('data-f');
+      trs.forEach(function(r){
+        var show = f==='all' || (f==='__toss'? r.getAttribute('data-toss')==='1' : r.getAttribute('data-g')===f);
+        r.style.display = show? '' : 'none';
+      });
+    })});
+    // live self-grading: countdown now, fills from sealed-results.json on election night
+    var elect=new Date('2026-11-03T20:00:00-08:00');
+    function days(){return Math.ceil((elect-new Date())/86400000);}
+    var blc=document.getElementById('blCount');
+    function pre(){var d=days(); if(blc) blc.textContent=d>0? d+(d===1?' day':' days')+' to grading' : 'Grading now';}
+    pre();
+    fetch('sealed-results.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(res){
+      if(!res||!res.races||!Object.keys(res.races).length){pre();return;}
+      var hits=0,called=0;
+      trs.forEach(function(tr){
+        var d=tr.getAttribute('data-dist'),call=tr.getAttribute('data-call'),rc=res.races[d],cell=tr.querySelector('.res');
+        if(!rc||rc.winner==null){return;}
+        var s = (rc.dem_twoway!=null? rc.dem_twoway.toFixed(1)+'% ':'');
+        if(call==='D'||call==='R'){called++;var ok=(call===rc.winner);if(ok)hits++;cell.innerHTML=s+'<span class="rp '+(ok?'ok':'no')+'">'+(ok?'\u2713':'\u2717')+'</span>';}
+        else{cell.innerHTML=s+'<span class="rp to">'+rc.winner+'</span>';}
+      });
+      var bl=document.getElementById('boardLive'),bt=document.getElementById('blText');
+      if(bl)bl.classList.add('live'); if(bt)bt.textContent='LIVE \u2014 grading against certified results as they land.';
+      if(blc)blc.textContent=hits+'/'+called+' calls correct';
+    }).catch(pre);
+  })();
+</script>
+<script>
+  (function(){
+    // deep-link fix: lazy images change page height after the browser's initial anchor jump,
+    // so a cold load of /#board lands at the hero. Re-scroll to the hash repeatedly as images
+    // settle (progressive reflow), unless the visitor has already scrolled themselves.
+    if(location.hash){
+      var tgt=location.hash, userScrolled=false;
+      window.addEventListener('wheel', function(){userScrolled=true;}, {passive:true,once:true});
+      window.addEventListener('touchmove', function(){userScrolled=true;}, {passive:true,once:true});
+      function rescroll(){ if(userScrolled) return; var el=document.querySelector(tgt); if(el) el.scrollIntoView(); }
+      window.addEventListener('load', function(){ [0,150,400,800,1300].forEach(function(d){ setTimeout(rescroll,d); }); });
+      [200,600].forEach(function(d){ setTimeout(rescroll,d); });
+    }
     var fbs=document.querySelectorAll('.fb'), trs=document.querySelectorAll('.board-tbl tbody tr');
     fbs.forEach(function(b){b.addEventListener('click',function(){
       fbs.forEach(function(x){x.classList.remove('active')}); b.classList.add('active');
