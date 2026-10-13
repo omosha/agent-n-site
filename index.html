@@ -293,6 +293,7 @@
   footer a{color:var(--on-dark);text-decoration:none}
   footer a:hover{color:#fff}
 
+
   /* sealed board (generated) */
   .board-sec{background:var(--paper);padding-top:clamp(56px,8vw,96px);padding-bottom:clamp(56px,8vw,96px)}
   .board-sec h2{font-size:clamp(28px,4.2vw,44px);font-weight:800;max-width:20ch;margin-top:10px}
@@ -659,6 +660,7 @@
   </div>
 </section>
 
+
 <!-- SEALED BOARD (generated: scripts/build_site_board.py) -->
 <section id="board" class="board-sec">
   <div class="wrap">
@@ -675,7 +677,7 @@
     <div class="seal-verify">
       <span class="sv-lock">&#9670; SEALED</span>
       <code class="sv-hash">sha256 f7884deb…da78ebe9</code>
-      <span class="sv-note">Locked October 13, 2026. These numbers cannot change without changing this fingerprint. Verify: re-hash <a href="data/sealed-board.json">the published data</a>, or check the dated commit.</span>
+      <span class="sv-note">Locked October 13, 2026. These numbers cannot change without changing this fingerprint. Verify: re-hash <a href="data/sealed-board.json">the published data</a>, or inspect <a href="https://github.com/omosha/agent-n-site/commit/e36075f">commit e36075f</a>, whose date predates the vote.</span>
     </div>
 
     <div class="board-stats">
@@ -839,6 +841,8 @@
     }, {threshold:0.12, rootMargin:'0px 0px -8% 0px'});
     document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
   })();
+</script>
+<script>
 </script>
 <script>
   (function(){
