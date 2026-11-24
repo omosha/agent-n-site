@@ -1,0 +1,61 @@
+{
+ "_readme": "Certified results for the 28 NATIONAL battleground races in the sealed board. These used a simpler baseline anchor (2024 presidential two-way by district + incumbency + a swing band), NOT the California platform method. Kept here so the national baseline can be graded in public too, labeled as the separate experiment it was.",
+ "races": {
+  "CO-05": {
+   "dem_twoway": 53.4,
+   "winner": "D"
+  },
+  "CO-08": {
+   "dem_twoway": 57.7,
+   "winner": "D"
+  },
+  "IA-01": {
+   "dem_twoway": 55.3,
+   "winner": "D"
+  },
+  "IA-03": {
+   "dem_twoway": 53.5,
+   "winner": "D"
+  },
+  "MT-01": {
+   "dem_twoway": 54.5,
+   "winner": "D"
+  },
+  "NE-02": {
+   "dem_twoway": 59.0,
+   "winner": "D"
+  },
+  "NM-02": {
+   "dem_twoway": 58.5,
+   "winner": "D"
+  },
+  "NY-03": {
+   "dem_twoway": 55.2,
+   "winner": "D"
+  },
+  "NY-04": {
+   "dem_twoway": 56.7,
+   "winner": "D"
+  },
+  "NY-17": {
+   "dem_twoway": 52.1,
+   "winner": "D"
+  },
+  "NY-19": {
+   "dem_twoway": 58.2,
+   "winner": "D"
+  },
+  "VA-01": {
+   "dem_twoway": 50.6,
+   "winner": "D"
+  },
+  "VA-02": {
+   "dem_twoway": 53.3,
+   "winner": "D"
+  },
+  "VA-05": {
+   "dem_twoway": 48.8,
+   "winner": "R"
+  }
+ }
+}

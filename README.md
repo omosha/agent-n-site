@@ -40,5 +40,7 @@ itemized so nothing is hidden.
 | `sealed-results.json` | Certified California results, the public record the board is graded against. |
 
 The 28 national battleground races in the sealed file used a simpler baseline anchor;
-they are a separate experiment, not part of the California record, and are excluded
-from the score above.
+they are a separate experiment, not part of the California record. `verify.py` grades
+them too (STEP 3), clearly labeled, so the weaker national numbers are shown rather than
+buried: that baseline ran close to the 2024 map and under-weighted the 2026 Democratic
+environment.

@@ -33,6 +33,7 @@ import subprocess
 HERE = os.path.dirname(os.path.abspath(__file__))
 BOARD_FILE = os.path.join(HERE, "data", "sealed-board.json")
 RESULTS_FILE = os.path.join(HERE, "sealed-results.json")
+NATIONAL_RESULTS_FILE = os.path.join(HERE, "data", "national-baseline-results.json")
 
 # Published on the site next to the SEALED badge. The board file must hash to this.
 PUBLISHED_SHA256 = "f7884deb9d8db77676ce670592567d92cbf04536f471c43447f3c856da78ebe9"
@@ -132,6 +133,35 @@ def grade():
     print()
 
 
+def national_baseline():
+    """Grade the 28 national races too, clearly labeled as the separate, non-platform
+    baseline. Shown on purpose so the weaker national numbers are not something a
+    reviewer has to discover on their own."""
+    if not os.path.exists(NATIONAL_RESULTS_FILE):
+        return
+    nat = [r for r in load_board() if (r.get("g") or r.get("set")) == "National U.S. House"]
+    results = json.load(open(NATIONAL_RESULTS_FILE)).get("races", {})
+    called = [r for r in nat if r.get("call") in ("D", "R")]
+    graded = [r for r in called if results.get(r["dist"], {}).get("winner") in ("D", "R")]
+    correct = [r for r in graded if r["call"] == results[r["dist"]]["winner"]]
+
+    print(BAR)
+    print("STEP 3 - NATIONAL BASELINE   a separate, non-platform experiment (shown, not hidden)")
+    print(BAR)
+    print("  28 national battleground races in the sealed file used a SIMPLER baseline anchor")
+    print("  (2024 presidential two-way + incumbency + a swing band), NOT the California method.")
+    print("  Reported here, labeled, so nothing is buried:")
+    print()
+    pct = 100 * len(correct) / len(graded) if graded else 0
+    print(f"    called D or R ............ {len(called)}")
+    print(f"    certified so far ......... {len(graded)}")
+    print(f"    calls correct ............ {len(correct)} / {len(graded)}  = {pct:.1f}%")
+    print()
+    print("  This baseline ran close to the 2024 map and under-weighted the 2026 Democratic")
+    print("  environment. It is NOT part of the California record and NOT the platform.")
+    print()
+
+
 def main():
     print()
     print("AGENT-N  -  SEALED CALIFORNIA BOARD, INDEPENDENT VERIFICATION")
@@ -141,6 +171,7 @@ def main():
     print()
     ok = seal_check()
     grade()
+    national_baseline()
     print(BAR)
     print("Reproduced from published data alone: no API keys, no model code, no network.")
     print("The sealed forecast and its score are what you just checked yourself.")
