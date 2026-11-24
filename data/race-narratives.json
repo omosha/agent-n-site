@@ -3492,827 +3492,6 @@
 "rName": "Bruce-Lane",
 "delta": "+3pp toward Elliott. N=12, illustrative."
 },
-"AZ-01": {
-"dist": "AZ-01",
-"g": "National U.S. House",
-"d": "Amish Shah (D)",
-"r": "Jay Feely (R)",
-"inc": "R",
-"proj": 45.9,
-"lo": 42.9,
-"hi": 48.9,
-"call": "R",
-"region": "the Scottsdale and north Phoenix suburbs",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "67, a software engineer, soft partisan, the Scottsdale and north Phoenix suburbs",
-"voice": "I am 67, a software engineer in the Scottsdale and north Phoenix suburbs. My lean is toward Feely, but it is soft. Shah is close enough in the numbers that I am still paying attention. What holds me with Feely is habit and a couple of issues that hit my household directly; what could move me is if Shah shows up where Feely has gone quiet.",
-"conflict": "A 8-point lean is not a lock. If turnout on my side sags, or Shah runs a sharper final week in the Scottsdale and north Phoenix suburbs, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-46,
-54
-],
-"shock": [
-38,
-62
-],
-"dName": "Shah",
-"rName": "Feely",
-"delta": "−8pp toward Feely. N=12, illustrative."
-},
-"AZ-06": {
-"dist": "AZ-06",
-"g": "National U.S. House",
-"d": "JoAnna Mendoza (D)",
-"r": "Juan Ciscomani (R)",
-"inc": "R",
-"proj": 47.1,
-"lo": 44.1,
-"hi": 50.1,
-"call": "Toss-up",
-"region": "Tucson and southern Arizona",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "77, a retired contractor, registered independent, Tucson and southern Arizona",
-"voice": "I am 77, a retired contractor in Tucson and southern Arizona, and I am genuinely undecided here. Mendoza and Ciscomani both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about Tucson and southern Arizona could decide my vote.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-43,
-49,
-8
-],
-"shock": [
-39,
-61
-],
-"dName": "Mendoza",
-"rName": "Ciscomani",
-"delta": "−8pp toward Ciscomani. N=12, illustrative."
-},
-"CO-05": {
-"dist": "CO-05",
-"g": "National U.S. House",
-"d": "Jessica Killin (D)",
-"r": "Jeff Crank (R)",
-"inc": "R",
-"proj": 42.8,
-"lo": 39.8,
-"hi": 45.8,
-"call": "R",
-"region": "Colorado Springs and El Paso County",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "67, a retired contractor, soft partisan, Colorado Springs and El Paso County",
-"voice": "I am 67, a retired contractor in Colorado Springs and El Paso County. My lean is toward Crank, but it is soft. Killin is close enough in the numbers that I am still paying attention. What holds me with Crank is habit and a couple of issues that hit my household directly; what could move me is if Killin shows up where Crank has gone quiet.",
-"conflict": "A 14-point lean is not a lock. If turnout on my side sags, or Killin runs a sharper final week in Colorado Springs and El Paso County, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-43,
-57
-],
-"shock": [
-40,
-60
-],
-"dName": "Killin",
-"rName": "Crank",
-"delta": "−3pp toward Crank. N=12, illustrative."
-},
-"CO-08": {
-"dist": "CO-08",
-"g": "National U.S. House",
-"d": "Manny Rutinel (D)",
-"r": "Gabe Evans (R)",
-"inc": "R",
-"proj": 46.6,
-"lo": 43.6,
-"hi": 49.6,
-"call": "R",
-"region": "the north Denver suburbs",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "63, a retired contractor, soft partisan, the north Denver suburbs",
-"voice": "I am 63, a retired contractor in the north Denver suburbs. My lean is toward Evans, but it is soft. Rutinel is close enough in the numbers that I am still paying attention. What holds me with Evans is habit and a couple of issues that hit my household directly; what could move me is if Rutinel shows up where Evans has gone quiet.",
-"conflict": "A 6-point lean is not a lock. If turnout on my side sags, or Rutinel runs a sharper final week in the north Denver suburbs, this is the kind of race that slips.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-47,
-53
-],
-"shock": [
-54,
-46
-],
-"dName": "Rutinel",
-"rName": "Evans",
-"delta": "+7pp toward Rutinel. N=12, illustrative."
-},
-"IA-01": {
-"dist": "IA-01",
-"g": "National U.S. House",
-"d": "Christina Bohannan (D)",
-"r": "Mariannette Miller-Meeks (R)",
-"inc": "R",
-"proj": 43.2,
-"lo": 40.2,
-"hi": 46.2,
-"call": "R",
-"region": "southeast Iowa",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "52, a farmworker, soft partisan, southeast Iowa",
-"voice": "I am 52, a farmworker in southeast Iowa. My lean is toward Miller-Meeks, but it is soft. Bohannan is close enough in the numbers that I am still paying attention. What holds me with Miller-Meeks is habit and a couple of issues that hit my household directly; what could move me is if Bohannan shows up where Miller-Meeks has gone quiet.",
-"conflict": "A 14-point lean is not a lock. If turnout on my side sags, or Bohannan runs a sharper final week in southeast Iowa, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-43,
-57
-],
-"shock": [
-35,
-65
-],
-"dName": "Bohannan",
-"rName": "Miller-Meeks",
-"delta": "−8pp toward Miller-Meeks. N=12, illustrative."
-},
-"IA-03": {
-"dist": "IA-03",
-"g": "National U.S. House",
-"d": "Sarah Trone Garriott (D)",
-"r": "Zach Nunn (R)",
-"inc": "R",
-"proj": 45.3,
-"lo": 42.3,
-"hi": 48.3,
-"call": "R",
-"region": "Des Moines and its suburbs",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "29, a warehouse supervisor, soft partisan, Des Moines and its suburbs",
-"voice": "I am 29, a warehouse supervisor in Des Moines and its suburbs. My lean is toward Nunn, but it is soft. Garriott is close enough in the numbers that I am still paying attention. What holds me with Nunn is habit and a couple of issues that hit my household directly; what could move me is if Garriott shows up where Nunn has gone quiet.",
-"conflict": "A 10-point lean is not a lock. If turnout on my side sags, or Garriott runs a sharper final week in Des Moines and its suburbs, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-45,
-55
-],
-"shock": [
-42,
-58
-],
-"dName": "Garriott",
-"rName": "Nunn",
-"delta": "−3pp toward Nunn. N=12, illustrative."
-},
-"ME-02": {
-"dist": "ME-02",
-"g": "National U.S. House",
-"d": "Matt Dunlap (D)",
-"r": "Paul LePage (R)",
-"inc": "D (open)",
-"proj": 47.9,
-"lo": 44.9,
-"hi": 50.9,
-"call": "Toss-up",
-"region": "rural northern and eastern Maine",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "29, an office manager, registered independent, rural northern and eastern Maine",
-"voice": "I am 29, an office manager in rural northern and eastern Maine, and I am genuinely undecided here. Dunlap and LePage both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about rural northern and eastern Maine could decide my vote.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-44,
-48,
-8
-],
-"shock": [
-55,
-45
-],
-"dName": "Dunlap",
-"rName": "LePage",
-"delta": "+7pp toward Dunlap. N=12, illustrative."
-},
-"MI-04": {
-"dist": "MI-04",
-"g": "National U.S. House",
-"d": "Sean McCann (D)",
-"r": "Bill Huizenga (R)",
-"inc": "R",
-"proj": 44.7,
-"lo": 41.7,
-"hi": 47.7,
-"call": "R",
-"region": "southwest Michigan",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "77, a software engineer, soft partisan, southwest Michigan",
-"voice": "I am 77, a software engineer in southwest Michigan. My lean is toward Huizenga, but it is soft. McCann is close enough in the numbers that I am still paying attention. What holds me with Huizenga is habit and a couple of issues that hit my household directly; what could move me is if McCann shows up where Huizenga has gone quiet.",
-"conflict": "A 10-point lean is not a lock. If turnout on my side sags, or McCann runs a sharper final week in southwest Michigan, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-45,
-55
-],
-"shock": [
-37,
-63
-],
-"dName": "McCann",
-"rName": "Huizenga",
-"delta": "−8pp toward Huizenga. N=12, illustrative."
-},
-"MI-07": {
-"dist": "MI-07",
-"g": "National U.S. House",
-"d": "Will Lawrence (D)",
-"r": "Tom Barrett (R)",
-"inc": "R",
-"proj": 46.9,
-"lo": 43.9,
-"hi": 49.9,
-"call": "R",
-"region": "mid-Michigan around Lansing",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "46, a small-business owner, soft partisan, mid-Michigan around Lansing",
-"voice": "I am 46, a small-business owner in mid-Michigan around Lansing. My lean is toward Barrett, but it is soft. Lawrence is close enough in the numbers that I am still paying attention. What holds me with Barrett is habit and a couple of issues that hit my household directly; what could move me is if Lawrence shows up where Barrett has gone quiet.",
-"conflict": "A 6-point lean is not a lock. If turnout on my side sags, or Lawrence runs a sharper final week in mid-Michigan around Lansing, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-47,
-53
-],
-"shock": [
-44,
-56
-],
-"dName": "Lawrence",
-"rName": "Barrett",
-"delta": "−3pp toward Barrett. N=12, illustrative."
-},
-"MI-10": {
-"dist": "MI-10",
-"g": "National U.S. House",
-"d": "Christina Hines (D)",
-"r": "Mike Bouchard (R)",
-"inc": "R (open)",
-"proj": 44.2,
-"lo": 41.2,
-"hi": 47.2,
-"call": "R",
-"region": "Macomb County, north of Detroit",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "71, a farmworker, soft partisan, Macomb County, north of Detroit",
-"voice": "I am 71, a farmworker in Macomb County, north of Detroit. My lean is toward Bouchard, but it is soft. Hines is close enough in the numbers that I am still paying attention. What holds me with Bouchard is habit and a couple of issues that hit my household directly; what could move me is if Hines shows up where Bouchard has gone quiet.",
-"conflict": "A 12-point lean is not a lock. If turnout on my side sags, or Hines runs a sharper final week in Macomb County, north of Detroit, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-44,
-56
-],
-"shock": [
-36,
-64
-],
-"dName": "Hines",
-"rName": "Bouchard",
-"delta": "−8pp toward Bouchard. N=12, illustrative."
-},
-"MT-01": {
-"dist": "MT-01",
-"g": "National U.S. House",
-"d": "Sam Forstag (D)",
-"r": "Aaron Flint (R)",
-"inc": "R (open)",
-"proj": 41.5,
-"lo": 38.5,
-"hi": 44.5,
-"call": "R",
-"region": "western Montana",
-"office": "U.S. House",
-"bucket": "safe",
-"who": "77, a schoolteacher, reliable Republican, western Montana",
-"voice": "I am 77, a schoolteacher in western Montana, and I will almost certainly vote Flint. This is not a close seat and everyone knows it. The real question for me is whether I bother with the whole ballot or stop after the top of the ticket, because down here the result feels decided before I even open the envelope.",
-"conflict": "The risk in western Montana is not that I switch to Forstag, it is that I skip the race entirely. Safe seats lose votes to apathy, not to the other side.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-42,
-58
-],
-"shock": [
-49,
-51
-],
-"dName": "Forstag",
-"rName": "Flint",
-"delta": "+7pp toward Forstag. N=12, illustrative."
-},
-"NE-02": {
-"dist": "NE-02",
-"g": "National U.S. House",
-"d": "Denise Powell (D)",
-"r": "Brinker Harding (R)",
-"inc": "R (open)",
-"proj": 49.8,
-"lo": 46.8,
-"hi": 52.8,
-"call": "Toss-up",
-"region": "the Omaha metro",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "52, a nurse, registered independent, the Omaha metro",
-"voice": "I am 52, a nurse in the Omaha metro, and I am genuinely undecided here. Powell and Harding both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about the Omaha metro could decide my vote.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-46,
-46,
-8
-],
-"shock": [
-47,
-53
-],
-"dName": "Powell",
-"rName": "Harding",
-"delta": "−3pp toward Harding. N=12, illustrative."
-},
-"NH-01": {
-"dist": "NH-01",
-"g": "National U.S. House",
-"d": "Stefany Shaheen (D)",
-"r": "Anthony DiLorenzo (R)",
-"inc": "D (open)",
-"proj": 53.5,
-"lo": 50.5,
-"hi": 56.5,
-"call": "D",
-"region": "eastern New Hampshire and the Seacoast",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "71, a farmworker, soft partisan, eastern New Hampshire and the Seacoast",
-"voice": "I am 71, a farmworker in eastern New Hampshire and the Seacoast. My lean is toward Shaheen, but it is soft. DiLorenzo is close enough in the numbers that I am still paying attention. What holds me with Shaheen is habit and a couple of issues that hit my household directly; what could move me is if DiLorenzo shows up where Shaheen has gone quiet.",
-"conflict": "A 8-point lean is not a lock. If turnout on my side sags, or DiLorenzo runs a sharper final week in eastern New Hampshire and the Seacoast, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-54,
-46
-],
-"shock": [
-46,
-54
-],
-"dName": "Shaheen",
-"rName": "DiLorenzo",
-"delta": "−8pp toward DiLorenzo. N=12, illustrative."
-},
-"NM-02": {
-"dist": "NM-02",
-"g": "National U.S. House",
-"d": "Gabe Vasquez (D)",
-"r": "Greg Cunningham (R)",
-"inc": "D",
-"proj": 51.6,
-"lo": 48.6,
-"hi": 54.6,
-"call": "Toss-up",
-"region": "southern New Mexico and the border",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "58, a retired contractor, registered independent, southern New Mexico and the border",
-"voice": "I am 58, a retired contractor in southern New Mexico and the border, and I am genuinely undecided here. Vasquez and Cunningham both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about southern New Mexico and the border could decide my vote.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-48,
-44,
-8
-],
-"shock": [
-55,
-45
-],
-"dName": "Vasquez",
-"rName": "Cunningham",
-"delta": "+3pp toward Vasquez. N=12, illustrative."
-},
-"NV-03": {
-"dist": "NV-03",
-"g": "National U.S. House",
-"d": "Susie Lee (D)",
-"r": "Marty O'Donnell (R)",
-"inc": "D",
-"proj": 52.1,
-"lo": 49.1,
-"hi": 55.1,
-"call": "Toss-up",
-"region": "the Las Vegas suburbs",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "63, a nurse, registered independent, the Las Vegas suburbs",
-"voice": "I am 63, a nurse in the Las Vegas suburbs, and I am genuinely undecided here. Lee and O'Donnell both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about the Las Vegas suburbs could decide my vote.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-48,
-44,
-8
-],
-"shock": [
-55,
-45
-],
-"dName": "Lee",
-"rName": "O'Donnell",
-"delta": "+3pp toward Lee. N=12, illustrative."
-},
-"NY-03": {
-"dist": "NY-03",
-"g": "National U.S. House",
-"d": "Tom Suozzi (D)",
-"r": "Mike LiPetri (R)",
-"inc": "D",
-"proj": 50.3,
-"lo": 47.3,
-"hi": 53.3,
-"call": "Toss-up",
-"region": "Long Island and northeast Queens",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "34, a nurse, registered independent, Long Island and northeast Queens",
-"voice": "I am 34, a nurse in Long Island and northeast Queens, and I am genuinely undecided here. Suozzi and LiPetri both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about Long Island and northeast Queens could decide my vote.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-46,
-46,
-8
-],
-"shock": [
-42,
-58
-],
-"dName": "Suozzi",
-"rName": "LiPetri",
-"delta": "−8pp toward LiPetri. N=12, illustrative."
-},
-"NY-04": {
-"dist": "NY-04",
-"g": "National U.S. House",
-"d": "Laura Gillen (D)",
-"r": "Jeanine Driscoll (R)",
-"inc": "D",
-"proj": 53.1,
-"lo": 50.1,
-"hi": 56.1,
-"call": "D",
-"region": "southern Nassau County",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "77, a warehouse supervisor, soft partisan, southern Nassau County",
-"voice": "I am 77, a warehouse supervisor in southern Nassau County. My lean is toward Gillen, but it is soft. Driscoll is close enough in the numbers that I am still paying attention. What holds me with Gillen is habit and a couple of issues that hit my household directly; what could move me is if Driscoll shows up where Gillen has gone quiet.",
-"conflict": "A 6-point lean is not a lock. If turnout on my side sags, or Driscoll runs a sharper final week in southern Nassau County, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-53,
-47
-],
-"shock": [
-56,
-44
-],
-"dName": "Gillen",
-"rName": "Driscoll",
-"delta": "+3pp toward Gillen. N=12, illustrative."
-},
-"NY-17": {
-"dist": "NY-17",
-"g": "National U.S. House",
-"d": "Cait Conley (D)",
-"r": "Mike Lawler (R)",
-"inc": "R",
-"proj": 47.8,
-"lo": 44.8,
-"hi": 50.8,
-"call": "Toss-up",
-"region": "the lower Hudson Valley",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "77, a software engineer, registered independent, the lower Hudson Valley",
-"voice": "I am 77, a software engineer in the lower Hudson Valley, and I am genuinely undecided here. Conley and Lawler both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about the lower Hudson Valley could decide my vote.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-44,
-48,
-8
-],
-"shock": [
-55,
-45
-],
-"dName": "Conley",
-"rName": "Lawler",
-"delta": "+7pp toward Conley. N=12, illustrative."
-},
-"NY-19": {
-"dist": "NY-19",
-"g": "National U.S. House",
-"d": "Josh Riley (D)",
-"r": "Peter Oberacker (R)",
-"inc": "D",
-"proj": 53.4,
-"lo": 50.4,
-"hi": 56.4,
-"call": "D",
-"region": "the upstate Catskills and Hudson Valley",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "34, a schoolteacher, soft partisan, the upstate Catskills and Hudson Valley",
-"voice": "I am 34, a schoolteacher in the upstate Catskills and Hudson Valley. My lean is toward Riley, but it is soft. Oberacker is close enough in the numbers that I am still paying attention. What holds me with Riley is habit and a couple of issues that hit my household directly; what could move me is if Oberacker shows up where Riley has gone quiet.",
-"conflict": "A 6-point lean is not a lock. If turnout on my side sags, or Oberacker runs a sharper final week in the upstate Catskills and Hudson Valley, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-53,
-47
-],
-"shock": [
-56,
-44
-],
-"dName": "Riley",
-"rName": "Oberacker",
-"delta": "+3pp toward Riley. N=12, illustrative."
-},
-"PA-07": {
-"dist": "PA-07",
-"g": "National U.S. House",
-"d": "Bob Brooks (D)",
-"r": "Ryan Mackenzie (R)",
-"inc": "R",
-"proj": 45.9,
-"lo": 42.9,
-"hi": 48.9,
-"call": "R",
-"region": "the Lehigh Valley",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "77, an office manager, soft partisan, the Lehigh Valley",
-"voice": "I am 77, an office manager in the Lehigh Valley. My lean is toward Mackenzie, but it is soft. Brooks is close enough in the numbers that I am still paying attention. What holds me with Mackenzie is habit and a couple of issues that hit my household directly; what could move me is if Brooks shows up where Mackenzie has gone quiet.",
-"conflict": "A 8-point lean is not a lock. If turnout on my side sags, or Brooks runs a sharper final week in the Lehigh Valley, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-46,
-54
-],
-"shock": [
-38,
-62
-],
-"dName": "Brooks",
-"rName": "Mackenzie",
-"delta": "−8pp toward Mackenzie. N=12, illustrative."
-},
-"PA-08": {
-"dist": "PA-08",
-"g": "National U.S. House",
-"d": "Paige Cognetti (D)",
-"r": "Rob Bresnahan (R)",
-"inc": "R",
-"proj": 43.2,
-"lo": 40.2,
-"hi": 46.2,
-"call": "R",
-"region": "Scranton and northeast Pennsylvania",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "77, an office manager, soft partisan, Scranton and northeast Pennsylvania",
-"voice": "I am 77, an office manager in Scranton and northeast Pennsylvania. My lean is toward Bresnahan, but it is soft. Cognetti is close enough in the numbers that I am still paying attention. What holds me with Bresnahan is habit and a couple of issues that hit my household directly; what could move me is if Cognetti shows up where Bresnahan has gone quiet.",
-"conflict": "A 14-point lean is not a lock. If turnout on my side sags, or Cognetti runs a sharper final week in Scranton and northeast Pennsylvania, this is the kind of race that slips.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-43,
-57
-],
-"shock": [
-50,
-50
-],
-"dName": "Cognetti",
-"rName": "Bresnahan",
-"delta": "+7pp toward Cognetti. N=12, illustrative."
-},
-"PA-10": {
-"dist": "PA-10",
-"g": "National U.S. House",
-"d": "Janelle Stelson (D)",
-"r": "Scott Perry (R)",
-"inc": "R",
-"proj": 44.9,
-"lo": 41.9,
-"hi": 47.9,
-"call": "R",
-"region": "the Harrisburg and York area",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "41, a farmworker, soft partisan, the Harrisburg and York area",
-"voice": "I am 41, a farmworker in the Harrisburg and York area. My lean is toward Perry, but it is soft. Stelson is close enough in the numbers that I am still paying attention. What holds me with Perry is habit and a couple of issues that hit my household directly; what could move me is if Stelson shows up where Perry has gone quiet.",
-"conflict": "A 10-point lean is not a lock. If turnout on my side sags, or Stelson runs a sharper final week in the Harrisburg and York area, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-45,
-55
-],
-"shock": [
-37,
-63
-],
-"dName": "Stelson",
-"rName": "Perry",
-"delta": "−8pp toward Perry. N=12, illustrative."
-},
-"VA-01": {
-"dist": "VA-01",
-"g": "National U.S. House",
-"d": "Shannon Taylor (D)",
-"r": "Rob Wittman (R)",
-"inc": "R",
-"proj": 45.0,
-"lo": 42.0,
-"hi": 48.0,
-"call": "R",
-"region": "the Northern Neck and Tidewater",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "29, a warehouse supervisor, soft partisan, the Northern Neck and Tidewater",
-"voice": "I am 29, a warehouse supervisor in the Northern Neck and Tidewater. My lean is toward Wittman, but it is soft. Taylor is close enough in the numbers that I am still paying attention. What holds me with Wittman is habit and a couple of issues that hit my household directly; what could move me is if Taylor shows up where Wittman has gone quiet.",
-"conflict": "A 10-point lean is not a lock. If turnout on my side sags, or Taylor runs a sharper final week in the Northern Neck and Tidewater, this is the kind of race that slips.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-45,
-55
-],
-"shock": [
-42,
-58
-],
-"dName": "Taylor",
-"rName": "Wittman",
-"delta": "−3pp toward Wittman. N=12, illustrative."
-},
-"VA-02": {
-"dist": "VA-02",
-"g": "National U.S. House",
-"d": "Elaine Luria (D)",
-"r": "Jen Kiggans (R)",
-"inc": "R",
-"proj": 47.4,
-"lo": 44.4,
-"hi": 50.4,
-"call": "Toss-up",
-"region": "Virginia Beach and Hampton Roads",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "46, a warehouse supervisor, registered independent, Virginia Beach and Hampton Roads",
-"voice": "I am 46, a warehouse supervisor in Virginia Beach and Hampton Roads, and I am genuinely undecided here. Luria and Kiggans both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about Virginia Beach and Hampton Roads could decide my vote.",
-"scenario": "A grocery-and-healthcare-cost story nationalizes the final week of the race.",
-"base": [
-43,
-49,
-8
-],
-"shock": [
-54,
-46
-],
-"dName": "Luria",
-"rName": "Kiggans",
-"delta": "+7pp toward Luria. N=12, illustrative."
-},
-"VA-05": {
-"dist": "VA-05",
-"g": "National U.S. House",
-"d": "Tom Perriello (D)",
-"r": "John McGuire (R)",
-"inc": "R",
-"proj": 41.3,
-"lo": 38.3,
-"hi": 44.3,
-"call": "R",
-"region": "central and southside Virginia",
-"office": "U.S. House",
-"bucket": "safe",
-"who": "58, an office manager, reliable Republican, central and southside Virginia",
-"voice": "I am 58, an office manager in central and southside Virginia, and I will almost certainly vote McGuire. This is not a close seat and everyone knows it. The real question for me is whether I bother with the whole ballot or stop after the top of the ticket, because down here the result feels decided before I even open the envelope.",
-"conflict": "The risk in central and southside Virginia is not that I switch to Perriello, it is that I skip the race entirely. Safe seats lose votes to apathy, not to the other side.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-41,
-59
-],
-"shock": [
-38,
-62
-],
-"dName": "Perriello",
-"rName": "McGuire",
-"delta": "−3pp toward McGuire. N=12, illustrative."
-},
-"WA-03": {
-"dist": "WA-03",
-"g": "National U.S. House",
-"d": "Marie Gluesenkamp Perez (D)",
-"r": "John Braun (R)",
-"inc": "D",
-"proj": 50.8,
-"lo": 47.8,
-"hi": 53.8,
-"call": "Toss-up",
-"region": "southwest Washington",
-"office": "U.S. House",
-"bucket": "tossup",
-"who": "71, an office manager, registered independent, southwest Washington",
-"voice": "I am 71, an office manager in southwest Washington, and I am genuinely undecided here. Perez and Braun both keep showing up in my feed, and on paper this is a coin flip. I am not voting the party line in this one. I am waiting to see who sounds like they actually understand what the last two years cost people like me before I fill it in.",
-"conflict": "I could still swing either way, or leave it blank if both camps spend the final week attacking instead of answering. A single local story about southwest Washington could decide my vote.",
-"scenario": "Congress forces a government-shutdown vote days before the election and it leads national news.",
-"base": [
-47,
-45,
-8
-],
-"shock": [
-54,
-46
-],
-"dName": "Perez",
-"rName": "Braun",
-"delta": "+3pp toward Perez. N=12, illustrative."
-},
-"WI-01": {
-"dist": "WI-01",
-"g": "National U.S. House",
-"d": "Mitchell Berman (D)",
-"r": "Bryan Steil (R)",
-"inc": "R",
-"proj": 45.2,
-"lo": 42.2,
-"hi": 48.2,
-"call": "R",
-"region": "southeast Wisconsin",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "71, a retired contractor, soft partisan, southeast Wisconsin",
-"voice": "I am 71, a retired contractor in southeast Wisconsin. My lean is toward Steil, but it is soft. Berman is close enough in the numbers that I am still paying attention. What holds me with Steil is habit and a couple of issues that hit my household directly; what could move me is if Berman shows up where Steil has gone quiet.",
-"conflict": "A 10-point lean is not a lock. If turnout on my side sags, or Berman runs a sharper final week in southeast Wisconsin, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-45,
-55
-],
-"shock": [
-37,
-63
-],
-"dName": "Berman",
-"rName": "Steil",
-"delta": "−8pp toward Steil. N=12, illustrative."
-},
-"WI-03": {
-"dist": "WI-03",
-"g": "National U.S. House",
-"d": "Rebecca Cooke (D)",
-"r": "Derrick Van Orden (R)",
-"inc": "R",
-"proj": 43.7,
-"lo": 40.7,
-"hi": 46.7,
-"call": "R",
-"region": "the western Wisconsin Driftless",
-"office": "U.S. House",
-"bucket": "lean",
-"who": "71, a farmworker, soft partisan, the western Wisconsin Driftless",
-"voice": "I am 71, a farmworker in the western Wisconsin Driftless. My lean is toward Orden, but it is soft. Cooke is close enough in the numbers that I am still paying attention. What holds me with Orden is habit and a couple of issues that hit my household directly; what could move me is if Cooke shows up where Orden has gone quiet.",
-"conflict": "A 12-point lean is not a lock. If turnout on my side sags, or Cooke runs a sharper final week in the western Wisconsin Driftless, this is the kind of race that slips.",
-"scenario": "A border-and-immigration story dominates cable in the closing stretch.",
-"base": [
-44,
-56
-],
-"shock": [
-36,
-64
-],
-"dName": "Cooke",
-"rName": "Orden",
-"delta": "−8pp toward Orden. N=12, illustrative."
-},
 "OC-D5": {
 "dist": "OC-D5",
 "g": "OC Supervisor",
@@ -4435,7 +3614,7 @@
 ],
 "dName": "Lucan",
 "rName": "Elward",
-"delta": "+24pp to Lucan. The attack did not suppress Elward (29→30) — it collapsed the Marin three-way and handed Lucan the pieces, an unintentional Lucan super-PAC. N=100 sim, from the sealed Lucan brief."
+"delta": "+24pp to Lucan. The attack did not suppress Elward (29→30), it collapsed the Marin three-way and handed Lucan the pieces, an unintentional Lucan super-PAC. N=100 sim, from the sealed Lucan brief."
 },
 "CA-07": {
 "dist": "CA-07",
@@ -4569,7 +3748,7 @@
 "index": [
 {
 "dist": "CA-01",
-"label": "CA-01 — Mike McGuire (D) vs James Gallagher (R)",
+"label": "CA-01, Mike McGuire (D) vs James Gallagher (R)",
 "tokens": [
 "CA-01",
 "Mike McGuire",
@@ -4578,7 +3757,7 @@
 },
 {
 "dist": "CA-02",
-"label": "CA-02 — Jared Huffman (D) vs Robin Littau (R)",
+"label": "CA-02, Jared Huffman (D) vs Robin Littau (R)",
 "tokens": [
 "CA-02",
 "Jared Huffman",
@@ -4587,7 +3766,7 @@
 },
 {
 "dist": "CA-03",
-"label": "CA-03 — Ami Bera (D) vs Robb Tucker (R)",
+"label": "CA-03, Ami Bera (D) vs Robb Tucker (R)",
 "tokens": [
 "CA-03",
 "Ami Bera",
@@ -4596,7 +3775,7 @@
 },
 {
 "dist": "CA-05",
-"label": "CA-05 — Michael Masuda (D) vs Tom McClintock (R)",
+"label": "CA-05, Michael Masuda (D) vs Tom McClintock (R)",
 "tokens": [
 "CA-05",
 "Michael Masuda",
@@ -4605,7 +3784,7 @@
 },
 {
 "dist": "CA-08",
-"label": "CA-08 — John Garamendi (D) vs Rudy Recile (R)",
+"label": "CA-08, John Garamendi (D) vs Rudy Recile (R)",
 "tokens": [
 "CA-08",
 "John Garamendi",
@@ -4614,7 +3793,7 @@
 },
 {
 "dist": "CA-09",
-"label": "CA-09 — Josh Harder (D) vs John McBride (R)",
+"label": "CA-09, Josh Harder (D) vs John McBride (R)",
 "tokens": [
 "CA-09",
 "Josh Harder",
@@ -4623,7 +3802,7 @@
 },
 {
 "dist": "CA-10",
-"label": "CA-10 — Mark DeSaulnier (D) vs Jeff Frese (R)",
+"label": "CA-10, Mark DeSaulnier (D) vs Jeff Frese (R)",
 "tokens": [
 "CA-10",
 "Mark DeSaulnier",
@@ -4632,7 +3811,7 @@
 },
 {
 "dist": "CA-13",
-"label": "CA-13 — Adam Gray (D) vs Kevin Lincoln (R)",
+"label": "CA-13, Adam Gray (D) vs Kevin Lincoln (R)",
 "tokens": [
 "CA-13",
 "Adam Gray",
@@ -4641,7 +3820,7 @@
 },
 {
 "dist": "CA-15",
-"label": "CA-15 — Kevin Mullin (D) vs Charles Hoelter (R)",
+"label": "CA-15, Kevin Mullin (D) vs Charles Hoelter (R)",
 "tokens": [
 "CA-15",
 "Kevin Mullin",
@@ -4650,7 +3829,7 @@
 },
 {
 "dist": "CA-16",
-"label": "CA-16 — Sam Liccardo (D) vs Peter Soule (R)",
+"label": "CA-16, Sam Liccardo (D) vs Peter Soule (R)",
 "tokens": [
 "CA-16",
 "Sam Liccardo",
@@ -4659,7 +3838,7 @@
 },
 {
 "dist": "CA-17",
-"label": "CA-17 — Ro Khanna (D) vs Ritesh Tandon (R)",
+"label": "CA-17, Ro Khanna (D) vs Ritesh Tandon (R)",
 "tokens": [
 "CA-17",
 "Ro Khanna",
@@ -4668,7 +3847,7 @@
 },
 {
 "dist": "CA-18",
-"label": "CA-18 — Zoe Lofgren (D) vs Shane Lewis (R)",
+"label": "CA-18, Zoe Lofgren (D) vs Shane Lewis (R)",
 "tokens": [
 "CA-18",
 "Zoe Lofgren",
@@ -4677,7 +3856,7 @@
 },
 {
 "dist": "CA-19",
-"label": "CA-19 — Jimmy Panetta (D) vs Peter Verbica (R)",
+"label": "CA-19, Jimmy Panetta (D) vs Peter Verbica (R)",
 "tokens": [
 "CA-19",
 "Jimmy Panetta",
@@ -4686,7 +3865,7 @@
 },
 {
 "dist": "CA-20",
-"label": "CA-20 — Sandra Van Scotter (D) vs Vince Fong (R)",
+"label": "CA-20, Sandra Van Scotter (D) vs Vince Fong (R)",
 "tokens": [
 "CA-20",
 "Sandra Van Scotter",
@@ -4695,7 +3874,7 @@
 },
 {
 "dist": "CA-21",
-"label": "CA-21 — Jim Costa (D) vs Kyle Kirkland (R)",
+"label": "CA-21, Jim Costa (D) vs Kyle Kirkland (R)",
 "tokens": [
 "CA-21",
 "Jim Costa",
@@ -4704,7 +3883,7 @@
 },
 {
 "dist": "CA-22",
-"label": "CA-22 — Randy Villegas (D) vs David Valadao (R)",
+"label": "CA-22, Randy Villegas (D) vs David Valadao (R)",
 "tokens": [
 "CA-22",
 "Randy Villegas",
@@ -4713,7 +3892,7 @@
 },
 {
 "dist": "CA-23",
-"label": "CA-23 — Tessa Hodge (D) vs Jay Obernolte (R)",
+"label": "CA-23, Tessa Hodge (D) vs Jay Obernolte (R)",
 "tokens": [
 "CA-23",
 "Tessa Hodge",
@@ -4722,7 +3901,7 @@
 },
 {
 "dist": "CA-24",
-"label": "CA-24 — Salud Carbajal (D) vs Bob Smith (R)",
+"label": "CA-24, Salud Carbajal (D) vs Bob Smith (R)",
 "tokens": [
 "CA-24",
 "Salud Carbajal",
@@ -4731,7 +3910,7 @@
 },
 {
 "dist": "CA-25",
-"label": "CA-25 — Raul Ruiz (D) vs Joe Males (R)",
+"label": "CA-25, Raul Ruiz (D) vs Joe Males (R)",
 "tokens": [
 "CA-25",
 "Raul Ruiz",
@@ -4740,7 +3919,7 @@
 },
 {
 "dist": "CA-26",
-"label": "CA-26 — Jacqui Irwin (D) vs Samuel Gallucci (R)",
+"label": "CA-26, Jacqui Irwin (D) vs Samuel Gallucci (R)",
 "tokens": [
 "CA-26",
 "Jacqui Irwin",
@@ -4749,7 +3928,7 @@
 },
 {
 "dist": "CA-27",
-"label": "CA-27 — George Whitesides (D) vs Jason Gibbs (R)",
+"label": "CA-27, George Whitesides (D) vs Jason Gibbs (R)",
 "tokens": [
 "CA-27",
 "George Whitesides",
@@ -4758,7 +3937,7 @@
 },
 {
 "dist": "CA-28",
-"label": "CA-28 — Judy Chu (D) vs April Verlato (R)",
+"label": "CA-28, Judy Chu (D) vs April Verlato (R)",
 "tokens": [
 "CA-28",
 "Judy Chu",
@@ -4767,7 +3946,7 @@
 },
 {
 "dist": "CA-30",
-"label": "CA-30 — Laura Friedman (D) vs Scott Meyers (R)",
+"label": "CA-30, Laura Friedman (D) vs Scott Meyers (R)",
 "tokens": [
 "CA-30",
 "Laura Friedman",
@@ -4776,7 +3955,7 @@
 },
 {
 "dist": "CA-31",
-"label": "CA-31 — Gil Cisneros (D) vs Eric Ching (R)",
+"label": "CA-31, Gil Cisneros (D) vs Eric Ching (R)",
 "tokens": [
 "CA-31",
 "Gil Cisneros",
@@ -4785,7 +3964,7 @@
 },
 {
 "dist": "CA-32",
-"label": "CA-32 — Brad Sherman (D) vs Larry Thompson (R)",
+"label": "CA-32, Brad Sherman (D) vs Larry Thompson (R)",
 "tokens": [
 "CA-32",
 "Brad Sherman",
@@ -4794,7 +3973,7 @@
 },
 {
 "dist": "CA-33",
-"label": "CA-33 — Pete Aguilar (D) vs Stephanie Vargas (R)",
+"label": "CA-33, Pete Aguilar (D) vs Stephanie Vargas (R)",
 "tokens": [
 "CA-33",
 "Pete Aguilar",
@@ -4803,7 +3982,7 @@
 },
 {
 "dist": "CA-35",
-"label": "CA-35 — Norma Torres (D) vs Mike Cargile (R)",
+"label": "CA-35, Norma Torres (D) vs Mike Cargile (R)",
 "tokens": [
 "CA-35",
 "Norma Torres",
@@ -4812,7 +3991,7 @@
 },
 {
 "dist": "CA-36",
-"label": "CA-36 — Ted Lieu (D) vs Houston Brignano (R)",
+"label": "CA-36, Ted Lieu (D) vs Houston Brignano (R)",
 "tokens": [
 "CA-36",
 "Ted Lieu",
@@ -4821,7 +4000,7 @@
 },
 {
 "dist": "CA-38",
-"label": "CA-38 — Hilda Solis (D) vs Pedro Antonio Casas (R)",
+"label": "CA-38, Hilda Solis (D) vs Pedro Antonio Casas (R)",
 "tokens": [
 "CA-38",
 "Hilda Solis",
@@ -4830,7 +4009,7 @@
 },
 {
 "dist": "CA-39",
-"label": "CA-39 — Mark Takano (D) vs Steve Manos (R)",
+"label": "CA-39, Mark Takano (D) vs Steve Manos (R)",
 "tokens": [
 "CA-39",
 "Mark Takano",
@@ -4839,7 +4018,7 @@
 },
 {
 "dist": "CA-41",
-"label": "CA-41 — Linda Sanchez (D) vs Mitch Clemmons (R)",
+"label": "CA-41, Linda Sanchez (D) vs Mitch Clemmons (R)",
 "tokens": [
 "CA-41",
 "Linda Sanchez",
@@ -4848,7 +4027,7 @@
 },
 {
 "dist": "CA-42",
-"label": "CA-42 — Robert Garcia (D) vs Brian Burley (R)",
+"label": "CA-42, Robert Garcia (D) vs Brian Burley (R)",
 "tokens": [
 "CA-42",
 "Robert Garcia",
@@ -4857,7 +4036,7 @@
 },
 {
 "dist": "CA-43",
-"label": "CA-43 — Maxine Waters (D) vs Cristian Morales (R)",
+"label": "CA-43, Maxine Waters (D) vs Cristian Morales (R)",
 "tokens": [
 "CA-43",
 "Maxine Waters",
@@ -4866,7 +4045,7 @@
 },
 {
 "dist": "CA-44",
-"label": "CA-44 — Nanette Barragan (D) vs Genevieve Angel (R)",
+"label": "CA-44, Nanette Barragan (D) vs Genevieve Angel (R)",
 "tokens": [
 "CA-44",
 "Nanette Barragan",
@@ -4875,7 +4054,7 @@
 },
 {
 "dist": "CA-45",
-"label": "CA-45 — Derek Tran (D) vs Chuong Vo (R)",
+"label": "CA-45, Derek Tran (D) vs Chuong Vo (R)",
 "tokens": [
 "CA-45",
 "Derek Tran",
@@ -4884,7 +4063,7 @@
 },
 {
 "dist": "CA-46",
-"label": "CA-46 — Lou Correa (D) vs David Pan (R)",
+"label": "CA-46, Lou Correa (D) vs David Pan (R)",
 "tokens": [
 "CA-46",
 "Lou Correa",
@@ -4893,7 +4072,7 @@
 },
 {
 "dist": "CA-47",
-"label": "CA-47 — Dave Min (D) vs Jenny Rae Le Roux (R)",
+"label": "CA-47, Dave Min (D) vs Jenny Rae Le Roux (R)",
 "tokens": [
 "CA-47",
 "Dave Min",
@@ -4902,7 +4081,7 @@
 },
 {
 "dist": "CA-48",
-"label": "CA-48 — Marni von Wilpert (D) vs Jim Desmond (R)",
+"label": "CA-48, Marni von Wilpert (D) vs Jim Desmond (R)",
 "tokens": [
 "CA-48",
 "Marni von Wilpert",
@@ -4911,7 +4090,7 @@
 },
 {
 "dist": "CA-49",
-"label": "CA-49 — Mike Levin (D) vs Armen Kurdian (R)",
+"label": "CA-49, Mike Levin (D) vs Armen Kurdian (R)",
 "tokens": [
 "CA-49",
 "Mike Levin",
@@ -4920,7 +4099,7 @@
 },
 {
 "dist": "CA-50",
-"label": "CA-50 — Scott Peters (D) vs Steve Cohen (R)",
+"label": "CA-50, Scott Peters (D) vs Steve Cohen (R)",
 "tokens": [
 "CA-50",
 "Scott Peters",
@@ -4929,7 +4108,7 @@
 },
 {
 "dist": "CA-51",
-"label": "CA-51 — Sara Jacobs (D) vs Ricardo Cabrera (R)",
+"label": "CA-51, Sara Jacobs (D) vs Ricardo Cabrera (R)",
 "tokens": [
 "CA-51",
 "Sara Jacobs",
@@ -4938,7 +4117,7 @@
 },
 {
 "dist": "CA-52",
-"label": "CA-52 — Juan Vargas (D) vs Jeff Belle (R)",
+"label": "CA-52, Juan Vargas (D) vs Jeff Belle (R)",
 "tokens": [
 "CA-52",
 "Juan Vargas",
@@ -4947,7 +4126,7 @@
 },
 {
 "dist": "AD-1",
-"label": "AD-1 — Dianna James vs Heather Hadwick",
+"label": "AD-1, Dianna James vs Heather Hadwick",
 "tokens": [
 "AD-1",
 "Dianna James",
@@ -4956,7 +4135,7 @@
 },
 {
 "dist": "AD-2",
-"label": "AD-2 — Chris Rogers vs Michael Greer",
+"label": "AD-2, Chris Rogers vs Michael Greer",
 "tokens": [
 "AD-2",
 "Chris Rogers",
@@ -4965,7 +4144,7 @@
 },
 {
 "dist": "AD-5",
-"label": "AD-5 — Neva Parker vs Joe Patterson",
+"label": "AD-5, Neva Parker vs Joe Patterson",
 "tokens": [
 "AD-5",
 "Neva Parker",
@@ -4974,7 +4153,7 @@
 },
 {
 "dist": "AD-7",
-"label": "AD-7 — Amy Slavensky vs Josh Hoover",
+"label": "AD-7, Amy Slavensky vs Josh Hoover",
 "tokens": [
 "AD-7",
 "Amy Slavensky",
@@ -4983,7 +4162,7 @@
 },
 {
 "dist": "AD-9",
-"label": "AD-9 — Matthew Adams vs Heath Flora",
+"label": "AD-9, Matthew Adams vs Heath Flora",
 "tokens": [
 "AD-9",
 "Matthew Adams",
@@ -4992,7 +4171,7 @@
 },
 {
 "dist": "AD-10",
-"label": "AD-10 — Stephanie Nguyen vs Vinaya Singh",
+"label": "AD-10, Stephanie Nguyen vs Vinaya Singh",
 "tokens": [
 "AD-10",
 "Stephanie Nguyen",
@@ -5001,7 +4180,7 @@
 },
 {
 "dist": "AD-13",
-"label": "AD-13 — Rhodesia Ransom vs Tom Patti",
+"label": "AD-13, Rhodesia Ransom vs Tom Patti",
 "tokens": [
 "AD-13",
 "Rhodesia Ransom",
@@ -5010,7 +4189,7 @@
 },
 {
 "dist": "AD-16",
-"label": "AD-16 — Rebecca Bauer-Kahan vs Joseph Rubay",
+"label": "AD-16, Rebecca Bauer-Kahan vs Joseph Rubay",
 "tokens": [
 "AD-16",
 "Rebecca Bauer-Kahan",
@@ -5019,7 +4198,7 @@
 },
 {
 "dist": "AD-19",
-"label": "AD-19 — Catherine Stefani vs Philip Wing",
+"label": "AD-19, Catherine Stefani vs Philip Wing",
 "tokens": [
 "AD-19",
 "Catherine Stefani",
@@ -5028,7 +4207,7 @@
 },
 {
 "dist": "AD-20",
-"label": "AD-20 — Liz Ortega vs Patricia Muga",
+"label": "AD-20, Liz Ortega vs Patricia Muga",
 "tokens": [
 "AD-20",
 "Liz Ortega",
@@ -5037,7 +4216,7 @@
 },
 {
 "dist": "AD-21",
-"label": "AD-21 — Diane Papan vs Jabra Muhawieh",
+"label": "AD-21, Diane Papan vs Jabra Muhawieh",
 "tokens": [
 "AD-21",
 "Diane Papan",
@@ -5046,7 +4225,7 @@
 },
 {
 "dist": "AD-23",
-"label": "AD-23 — Marc Berman vs David Johnson",
+"label": "AD-23, Marc Berman vs David Johnson",
 "tokens": [
 "AD-23",
 "Marc Berman",
@@ -5055,7 +4234,7 @@
 },
 {
 "dist": "AD-24",
-"label": "AD-24 — Alex Lee vs Max Hsia",
+"label": "AD-24, Alex Lee vs Max Hsia",
 "tokens": [
 "AD-24",
 "Alex Lee",
@@ -5064,7 +4243,7 @@
 },
 {
 "dist": "AD-25",
-"label": "AD-25 — Ash Kalra vs Himat Bainiwal",
+"label": "AD-25, Ash Kalra vs Himat Bainiwal",
 "tokens": [
 "AD-25",
 "Ash Kalra",
@@ -5073,7 +4252,7 @@
 },
 {
 "dist": "AD-26",
-"label": "AD-26 — Patrick Ahrens vs Tim Gorsulowsky",
+"label": "AD-26, Patrick Ahrens vs Tim Gorsulowsky",
 "tokens": [
 "AD-26",
 "Patrick Ahrens",
@@ -5082,7 +4261,7 @@
 },
 {
 "dist": "AD-27",
-"label": "AD-27 — Brian Pacheco vs Mike Murphy",
+"label": "AD-27, Brian Pacheco vs Mike Murphy",
 "tokens": [
 "AD-27",
 "Brian Pacheco",
@@ -5091,7 +4270,7 @@
 },
 {
 "dist": "AD-28",
-"label": "AD-28 — Gail Pellerin vs Carol Pefley",
+"label": "AD-28, Gail Pellerin vs Carol Pefley",
 "tokens": [
 "AD-28",
 "Gail Pellerin",
@@ -5100,7 +4279,7 @@
 },
 {
 "dist": "AD-29",
-"label": "AD-29 — Robert Rivas vs Dennis Sanchez",
+"label": "AD-29, Robert Rivas vs Dennis Sanchez",
 "tokens": [
 "AD-29",
 "Robert Rivas",
@@ -5109,7 +4288,7 @@
 },
 {
 "dist": "AD-30",
-"label": "AD-30 — Dawn Addis vs Shannon Kessler",
+"label": "AD-30, Dawn Addis vs Shannon Kessler",
 "tokens": [
 "AD-30",
 "Dawn Addis",
@@ -5118,7 +4297,7 @@
 },
 {
 "dist": "AD-31",
-"label": "AD-31 — Annalisa Perea vs Jim Polsgrove",
+"label": "AD-31, Annalisa Perea vs Jim Polsgrove",
 "tokens": [
 "AD-31",
 "Annalisa Perea",
@@ -5127,7 +4306,7 @@
 },
 {
 "dist": "AD-33",
-"label": "AD-33 — Hipolito Angel Cerros vs Alexandra Macedo",
+"label": "AD-33, Hipolito Angel Cerros vs Alexandra Macedo",
 "tokens": [
 "AD-33",
 "Hipolito Angel Cerros",
@@ -5136,7 +4315,7 @@
 },
 {
 "dist": "AD-34",
-"label": "AD-34 — Randall Putz vs Charles Hughes",
+"label": "AD-34, Randall Putz vs Charles Hughes",
 "tokens": [
 "AD-34",
 "Randall Putz",
@@ -5145,7 +4324,7 @@
 },
 {
 "dist": "AD-35",
-"label": "AD-35 — Andrae Gonzales vs Saul Ayon",
+"label": "AD-35, Andrae Gonzales vs Saul Ayon",
 "tokens": [
 "AD-35",
 "Andrae Gonzales",
@@ -5154,7 +4333,7 @@
 },
 {
 "dist": "AD-36",
-"label": "AD-36 — Ida Obeso-Martinez vs Jeff Gonzalez",
+"label": "AD-36, Ida Obeso-Martinez vs Jeff Gonzalez",
 "tokens": [
 "AD-36",
 "Ida Obeso-Martinez",
@@ -5163,7 +4342,7 @@
 },
 {
 "dist": "AD-37",
-"label": "AD-37 — Gregg Hart vs Sari Domingues",
+"label": "AD-37, Gregg Hart vs Sari Domingues",
 "tokens": [
 "AD-37",
 "Gregg Hart",
@@ -5172,7 +4351,7 @@
 },
 {
 "dist": "AD-39",
-"label": "AD-39 — Juan Carrillo vs Paul Marsh",
+"label": "AD-39, Juan Carrillo vs Paul Marsh",
 "tokens": [
 "AD-39",
 "Juan Carrillo",
@@ -5181,7 +4360,7 @@
 },
 {
 "dist": "AD-40",
-"label": "AD-40 — Pilar Schiavo vs Rickey Hayes II",
+"label": "AD-40, Pilar Schiavo vs Rickey Hayes II",
 "tokens": [
 "AD-40",
 "Pilar Schiavo",
@@ -5190,7 +4369,7 @@
 },
 {
 "dist": "AD-41",
-"label": "AD-41 — John Harabedian vs Adam Vena",
+"label": "AD-41, John Harabedian vs Adam Vena",
 "tokens": [
 "AD-41",
 "John Harabedian",
@@ -5199,7 +4378,7 @@
 },
 {
 "dist": "AD-42",
-"label": "AD-42 — Deborah Klein Lopez vs Ted Nordblum",
+"label": "AD-42, Deborah Klein Lopez vs Ted Nordblum",
 "tokens": [
 "AD-42",
 "Deborah Klein Lopez",
@@ -5208,7 +4387,7 @@
 },
 {
 "dist": "AD-43",
-"label": "AD-43 — Celeste Rodriguez vs Ricardo Benitez",
+"label": "AD-43, Celeste Rodriguez vs Ricardo Benitez",
 "tokens": [
 "AD-43",
 "Celeste Rodriguez",
@@ -5217,7 +4396,7 @@
 },
 {
 "dist": "AD-44",
-"label": "AD-44 — Nick Schultz vs Carolyn Daniels",
+"label": "AD-44, Nick Schultz vs Carolyn Daniels",
 "tokens": [
 "AD-44",
 "Nick Schultz",
@@ -5226,7 +4405,7 @@
 },
 {
 "dist": "AD-45",
-"label": "AD-45 — James Ramos vs Greg Abdouch",
+"label": "AD-45, James Ramos vs Greg Abdouch",
 "tokens": [
 "AD-45",
 "James Ramos",
@@ -5235,7 +4414,7 @@
 },
 {
 "dist": "AD-46",
-"label": "AD-46 — Jesse Gabriel vs Tracey Schroeder",
+"label": "AD-46, Jesse Gabriel vs Tracey Schroeder",
 "tokens": [
 "AD-46",
 "Jesse Gabriel",
@@ -5244,7 +4423,7 @@
 },
 {
 "dist": "AD-47",
-"label": "AD-47 — Leila Namvar vs Greg Wallis",
+"label": "AD-47, Leila Namvar vs Greg Wallis",
 "tokens": [
 "AD-47",
 "Leila Namvar",
@@ -5253,7 +4432,7 @@
 },
 {
 "dist": "AD-48",
-"label": "AD-48 — Blanca Rubio vs Dan Tran",
+"label": "AD-48, Blanca Rubio vs Dan Tran",
 "tokens": [
 "AD-48",
 "Blanca Rubio",
@@ -5262,7 +4441,7 @@
 },
 {
 "dist": "AD-49",
-"label": "AD-49 — Mike Fong vs Long David Liu",
+"label": "AD-49, Mike Fong vs Long David Liu",
 "tokens": [
 "AD-49",
 "Mike Fong",
@@ -5271,7 +4450,7 @@
 },
 {
 "dist": "AD-50",
-"label": "AD-50 — Robert Garcia vs Victoria Viveros Mageno",
+"label": "AD-50, Robert Garcia vs Victoria Viveros Mageno",
 "tokens": [
 "AD-50",
 "Robert Garcia",
@@ -5280,7 +4459,7 @@
 },
 {
 "dist": "AD-52",
-"label": "AD-52 — Jessica Caloza vs Andrea Anderson",
+"label": "AD-52, Jessica Caloza vs Andrea Anderson",
 "tokens": [
 "AD-52",
 "Jessica Caloza",
@@ -5289,7 +4468,7 @@
 },
 {
 "dist": "AD-53",
-"label": "AD-53 — Michelle Rodriguez vs Rafaela Romero",
+"label": "AD-53, Michelle Rodriguez vs Rafaela Romero",
 "tokens": [
 "AD-53",
 "Michelle Rodriguez",
@@ -5298,7 +4477,7 @@
 },
 {
 "dist": "AD-54",
-"label": "AD-54 — Mark Gonzalez vs Alexandra Briseno",
+"label": "AD-54, Mark Gonzalez vs Alexandra Briseno",
 "tokens": [
 "AD-54",
 "Mark Gonzalez",
@@ -5307,7 +4486,7 @@
 },
 {
 "dist": "AD-56",
-"label": "AD-56 — Lisa Calderon vs Jessica Martinez",
+"label": "AD-56, Lisa Calderon vs Jessica Martinez",
 "tokens": [
 "AD-56",
 "Lisa Calderon",
@@ -5316,7 +4495,7 @@
 },
 {
 "dist": "AD-57",
-"label": "AD-57 — Sade Elhawary vs Constance Menzies",
+"label": "AD-57, Sade Elhawary vs Constance Menzies",
 "tokens": [
 "AD-57",
 "Sade Elhawary",
@@ -5325,7 +4504,7 @@
 },
 {
 "dist": "AD-58",
-"label": "AD-58 — Clarissa Cervantes vs Leticia Castillo",
+"label": "AD-58, Clarissa Cervantes vs Leticia Castillo",
 "tokens": [
 "AD-58",
 "Clarissa Cervantes",
@@ -5334,7 +4513,7 @@
 },
 {
 "dist": "AD-60",
-"label": "AD-60 — Corey Jackson vs Ed Delgado",
+"label": "AD-60, Corey Jackson vs Ed Delgado",
 "tokens": [
 "AD-60",
 "Corey Jackson",
@@ -5343,7 +4522,7 @@
 },
 {
 "dist": "AD-61",
-"label": "AD-61 — Tina McKinnor vs Brian Lockwood",
+"label": "AD-61, Tina McKinnor vs Brian Lockwood",
 "tokens": [
 "AD-61",
 "Tina McKinnor",
@@ -5352,7 +4531,7 @@
 },
 {
 "dist": "AD-62",
-"label": "AD-62 — Jose Solache vs Paul Jones",
+"label": "AD-62, Jose Solache vs Paul Jones",
 "tokens": [
 "AD-62",
 "Jose Solache",
@@ -5361,7 +4540,7 @@
 },
 {
 "dist": "AD-64",
-"label": "AD-64 — Blanca Pacheco vs Raul Ortiz Jr.",
+"label": "AD-64, Blanca Pacheco vs Raul Ortiz Jr.",
 "tokens": [
 "AD-64",
 "Blanca Pacheco",
@@ -5370,7 +4549,7 @@
 },
 {
 "dist": "AD-65",
-"label": "AD-65 — Ayanna Davis vs Lydia Gutierrez",
+"label": "AD-65, Ayanna Davis vs Lydia Gutierrez",
 "tokens": [
 "AD-65",
 "Ayanna Davis",
@@ -5379,7 +4558,7 @@
 },
 {
 "dist": "AD-67",
-"label": "AD-67 — Mark Pulido vs Paulo Morales",
+"label": "AD-67, Mark Pulido vs Paulo Morales",
 "tokens": [
 "AD-67",
 "Mark Pulido",
@@ -5388,7 +4567,7 @@
 },
 {
 "dist": "AD-68",
-"label": "AD-68 — David Penaloza vs Mayra Ruiz",
+"label": "AD-68, David Penaloza vs Mayra Ruiz",
 "tokens": [
 "AD-68",
 "David Penaloza",
@@ -5397,7 +4576,7 @@
 },
 {
 "dist": "AD-70",
-"label": "AD-70 — Paula Swift vs Tri Ta",
+"label": "AD-70, Paula Swift vs Tri Ta",
 "tokens": [
 "AD-70",
 "Paula Swift",
@@ -5406,7 +4585,7 @@
 },
 {
 "dist": "AD-71",
-"label": "AD-71 — JJ Galvez vs Kate Sanchez",
+"label": "AD-71, JJ Galvez vs Kate Sanchez",
 "tokens": [
 "AD-71",
 "JJ Galvez",
@@ -5415,7 +4594,7 @@
 },
 {
 "dist": "AD-72",
-"label": "AD-72 — Chris Kluwe vs Gracey Van Der Mark",
+"label": "AD-72, Chris Kluwe vs Gracey Van Der Mark",
 "tokens": [
 "AD-72",
 "Chris Kluwe",
@@ -5424,7 +4603,7 @@
 },
 {
 "dist": "AD-73",
-"label": "AD-73 — Cottie Petrie-Norris vs Urson Russell",
+"label": "AD-73, Cottie Petrie-Norris vs Urson Russell",
 "tokens": [
 "AD-73",
 "Cottie Petrie-Norris",
@@ -5433,7 +4612,7 @@
 },
 {
 "dist": "AD-74",
-"label": "AD-74 — Sergio Farias vs Laurie Davies",
+"label": "AD-74, Sergio Farias vs Laurie Davies",
 "tokens": [
 "AD-74",
 "Sergio Farias",
@@ -5442,7 +4621,7 @@
 },
 {
 "dist": "AD-75",
-"label": "AD-75 — Gerald Boursiquot vs Carl DeMaio",
+"label": "AD-75, Gerald Boursiquot vs Carl DeMaio",
 "tokens": [
 "AD-75",
 "Gerald Boursiquot",
@@ -5451,7 +4630,7 @@
 },
 {
 "dist": "AD-76",
-"label": "AD-76 — Darshana Patel vs Carrie Espinoza Villanueva",
+"label": "AD-76, Darshana Patel vs Carrie Espinoza Villanueva",
 "tokens": [
 "AD-76",
 "Darshana Patel",
@@ -5460,7 +4639,7 @@
 },
 {
 "dist": "AD-77",
-"label": "AD-77 — Tasha Boerner vs Trinity Hannaway",
+"label": "AD-77, Tasha Boerner vs Trinity Hannaway",
 "tokens": [
 "AD-77",
 "Tasha Boerner",
@@ -5469,7 +4648,7 @@
 },
 {
 "dist": "AD-78",
-"label": "AD-78 — Chris Ward vs Payton Galvez",
+"label": "AD-78, Chris Ward vs Payton Galvez",
 "tokens": [
 "AD-78",
 "Chris Ward",
@@ -5478,7 +4657,7 @@
 },
 {
 "dist": "AD-79",
-"label": "AD-79 — LaShae Sharp-Collins vs Andrew Lawson",
+"label": "AD-79, LaShae Sharp-Collins vs Andrew Lawson",
 "tokens": [
 "AD-79",
 "LaShae Sharp-Collins",
@@ -5487,7 +4666,7 @@
 },
 {
 "dist": "AD-80",
-"label": "AD-80 — David Alvarez vs Alejandro Galicia",
+"label": "AD-80, David Alvarez vs Alejandro Galicia",
 "tokens": [
 "AD-80",
 "David Alvarez",
@@ -5496,7 +4675,7 @@
 },
 {
 "dist": "SEN-2",
-"label": "SEN-2 — Damon Connolly vs Tief Gibbs",
+"label": "SEN-2, Damon Connolly vs Tief Gibbs",
 "tokens": [
 "SEN-2",
 "Damon Connolly",
@@ -5505,7 +4684,7 @@
 },
 {
 "dist": "SEN-4",
-"label": "SEN-4 — Jaron Brandon vs Alexandra Duarte",
+"label": "SEN-4, Jaron Brandon vs Alexandra Duarte",
 "tokens": [
 "SEN-4",
 "Jaron Brandon",
@@ -5514,7 +4693,7 @@
 },
 {
 "dist": "SEN-6",
-"label": "SEN-6 — Sean Frame vs Roger Niello",
+"label": "SEN-6, Sean Frame vs Roger Niello",
 "tokens": [
 "SEN-6",
 "Sean Frame",
@@ -5523,7 +4702,7 @@
 },
 {
 "dist": "SEN-8",
-"label": "SEN-8 — Angelique Ashby vs Susan Mason",
+"label": "SEN-8, Angelique Ashby vs Susan Mason",
 "tokens": [
 "SEN-8",
 "Angelique Ashby",
@@ -5532,7 +4711,7 @@
 },
 {
 "dist": "SEN-10",
-"label": "SEN-10 — Scott Sakakihara vs Linda Price",
+"label": "SEN-10, Scott Sakakihara vs Linda Price",
 "tokens": [
 "SEN-10",
 "Scott Sakakihara",
@@ -5541,7 +4720,7 @@
 },
 {
 "dist": "SEN-14",
-"label": "SEN-14 — Esmeralda Soria vs Darin DuPont",
+"label": "SEN-14, Esmeralda Soria vs Darin DuPont",
 "tokens": [
 "SEN-14",
 "Esmeralda Soria",
@@ -5550,7 +4729,7 @@
 },
 {
 "dist": "SEN-16",
-"label": "SEN-16 — Melissa Hurtado vs Guillermo Gonzalez",
+"label": "SEN-16, Melissa Hurtado vs Guillermo Gonzalez",
 "tokens": [
 "SEN-16",
 "Melissa Hurtado",
@@ -5559,7 +4738,7 @@
 },
 {
 "dist": "SEN-18",
-"label": "SEN-18 — Steve Padilla vs Art Hodges",
+"label": "SEN-18, Steve Padilla vs Art Hodges",
 "tokens": [
 "SEN-18",
 "Steve Padilla",
@@ -5568,7 +4747,7 @@
 },
 {
 "dist": "SEN-20",
-"label": "SEN-20 — Caroline Menjivar vs Tony Rodriguez",
+"label": "SEN-20, Caroline Menjivar vs Tony Rodriguez",
 "tokens": [
 "SEN-20",
 "Caroline Menjivar",
@@ -5577,7 +4756,7 @@
 },
 {
 "dist": "SEN-22",
-"label": "SEN-22 — Susan Rubio vs Mike Netter",
+"label": "SEN-22, Susan Rubio vs Mike Netter",
 "tokens": [
 "SEN-22",
 "Susan Rubio",
@@ -5586,7 +4765,7 @@
 },
 {
 "dist": "SEN-28",
-"label": "SEN-28 — Lola Smallwood-Cuevas vs Joe Lisuzzo",
+"label": "SEN-28, Lola Smallwood-Cuevas vs Joe Lisuzzo",
 "tokens": [
 "SEN-28",
 "Lola Smallwood-Cuevas",
@@ -5595,7 +4774,7 @@
 },
 {
 "dist": "SEN-30",
-"label": "SEN-30 — Bob Archuleta vs Araceli Martinez",
+"label": "SEN-30, Bob Archuleta vs Araceli Martinez",
 "tokens": [
 "SEN-30",
 "Bob Archuleta",
@@ -5604,7 +4783,7 @@
 },
 {
 "dist": "SEN-32",
-"label": "SEN-32 — Tiffanie Tate vs Kelly Seyarto",
+"label": "SEN-32, Tiffanie Tate vs Kelly Seyarto",
 "tokens": [
 "SEN-32",
 "Tiffanie Tate",
@@ -5613,7 +4792,7 @@
 },
 {
 "dist": "SEN-34",
-"label": "SEN-34 — Avelino Valencia vs Rhonda Shader",
+"label": "SEN-34, Avelino Valencia vs Rhonda Shader",
 "tokens": [
 "SEN-34",
 "Avelino Valencia",
@@ -5622,7 +4801,7 @@
 },
 {
 "dist": "SEN-36",
-"label": "SEN-36 — Chris Duncan vs Tony Strickland",
+"label": "SEN-36, Chris Duncan vs Tony Strickland",
 "tokens": [
 "SEN-36",
 "Chris Duncan",
@@ -5631,7 +4810,7 @@
 },
 {
 "dist": "SEN-38",
-"label": "SEN-38 — Catherine Blakespear vs Laura Bassett",
+"label": "SEN-38, Catherine Blakespear vs Laura Bassett",
 "tokens": [
 "SEN-38",
 "Catherine Blakespear",
@@ -5640,7 +4819,7 @@
 },
 {
 "dist": "SEN-40",
-"label": "SEN-40 — Mara Elliott vs Kristie Bruce-Lane",
+"label": "SEN-40, Mara Elliott vs Kristie Bruce-Lane",
 "tokens": [
 "SEN-40",
 "Mara Elliott",
@@ -5648,260 +4827,8 @@
 ]
 },
 {
-"dist": "AZ-01",
-"label": "AZ-01 — Amish Shah (D) vs Jay Feely (R)",
-"tokens": [
-"AZ-01",
-"Amish Shah",
-"Jay Feely"
-]
-},
-{
-"dist": "AZ-06",
-"label": "AZ-06 — JoAnna Mendoza (D) vs Juan Ciscomani (R)",
-"tokens": [
-"AZ-06",
-"JoAnna Mendoza",
-"Juan Ciscomani"
-]
-},
-{
-"dist": "CO-05",
-"label": "CO-05 — Jessica Killin (D) vs Jeff Crank (R)",
-"tokens": [
-"CO-05",
-"Jessica Killin",
-"Jeff Crank"
-]
-},
-{
-"dist": "CO-08",
-"label": "CO-08 — Manny Rutinel (D) vs Gabe Evans (R)",
-"tokens": [
-"CO-08",
-"Manny Rutinel",
-"Gabe Evans"
-]
-},
-{
-"dist": "IA-01",
-"label": "IA-01 — Christina Bohannan (D) vs Mariannette Miller-Meeks (R)",
-"tokens": [
-"IA-01",
-"Christina Bohannan",
-"Mariannette Miller-Meeks"
-]
-},
-{
-"dist": "IA-03",
-"label": "IA-03 — Sarah Trone Garriott (D) vs Zach Nunn (R)",
-"tokens": [
-"IA-03",
-"Sarah Trone Garriott",
-"Zach Nunn"
-]
-},
-{
-"dist": "ME-02",
-"label": "ME-02 — Matt Dunlap (D) vs Paul LePage (R)",
-"tokens": [
-"ME-02",
-"Matt Dunlap",
-"Paul LePage"
-]
-},
-{
-"dist": "MI-04",
-"label": "MI-04 — Sean McCann (D) vs Bill Huizenga (R)",
-"tokens": [
-"MI-04",
-"Sean McCann",
-"Bill Huizenga"
-]
-},
-{
-"dist": "MI-07",
-"label": "MI-07 — Will Lawrence (D) vs Tom Barrett (R)",
-"tokens": [
-"MI-07",
-"Will Lawrence",
-"Tom Barrett"
-]
-},
-{
-"dist": "MI-10",
-"label": "MI-10 — Christina Hines (D) vs Mike Bouchard (R)",
-"tokens": [
-"MI-10",
-"Christina Hines",
-"Mike Bouchard"
-]
-},
-{
-"dist": "MT-01",
-"label": "MT-01 — Sam Forstag (D) vs Aaron Flint (R)",
-"tokens": [
-"MT-01",
-"Sam Forstag",
-"Aaron Flint"
-]
-},
-{
-"dist": "NE-02",
-"label": "NE-02 — Denise Powell (D) vs Brinker Harding (R)",
-"tokens": [
-"NE-02",
-"Denise Powell",
-"Brinker Harding"
-]
-},
-{
-"dist": "NH-01",
-"label": "NH-01 — Stefany Shaheen (D) vs Anthony DiLorenzo (R)",
-"tokens": [
-"NH-01",
-"Stefany Shaheen",
-"Anthony DiLorenzo"
-]
-},
-{
-"dist": "NM-02",
-"label": "NM-02 — Gabe Vasquez (D) vs Greg Cunningham (R)",
-"tokens": [
-"NM-02",
-"Gabe Vasquez",
-"Greg Cunningham"
-]
-},
-{
-"dist": "NV-03",
-"label": "NV-03 — Susie Lee (D) vs Marty O'Donnell (R)",
-"tokens": [
-"NV-03",
-"Susie Lee",
-"Marty O'Donnell"
-]
-},
-{
-"dist": "NY-03",
-"label": "NY-03 — Tom Suozzi (D) vs Mike LiPetri (R)",
-"tokens": [
-"NY-03",
-"Tom Suozzi",
-"Mike LiPetri"
-]
-},
-{
-"dist": "NY-04",
-"label": "NY-04 — Laura Gillen (D) vs Jeanine Driscoll (R)",
-"tokens": [
-"NY-04",
-"Laura Gillen",
-"Jeanine Driscoll"
-]
-},
-{
-"dist": "NY-17",
-"label": "NY-17 — Cait Conley (D) vs Mike Lawler (R)",
-"tokens": [
-"NY-17",
-"Cait Conley",
-"Mike Lawler"
-]
-},
-{
-"dist": "NY-19",
-"label": "NY-19 — Josh Riley (D) vs Peter Oberacker (R)",
-"tokens": [
-"NY-19",
-"Josh Riley",
-"Peter Oberacker"
-]
-},
-{
-"dist": "PA-07",
-"label": "PA-07 — Bob Brooks (D) vs Ryan Mackenzie (R)",
-"tokens": [
-"PA-07",
-"Bob Brooks",
-"Ryan Mackenzie"
-]
-},
-{
-"dist": "PA-08",
-"label": "PA-08 — Paige Cognetti (D) vs Rob Bresnahan (R)",
-"tokens": [
-"PA-08",
-"Paige Cognetti",
-"Rob Bresnahan"
-]
-},
-{
-"dist": "PA-10",
-"label": "PA-10 — Janelle Stelson (D) vs Scott Perry (R)",
-"tokens": [
-"PA-10",
-"Janelle Stelson",
-"Scott Perry"
-]
-},
-{
-"dist": "VA-01",
-"label": "VA-01 — Shannon Taylor (D) vs Rob Wittman (R)",
-"tokens": [
-"VA-01",
-"Shannon Taylor",
-"Rob Wittman"
-]
-},
-{
-"dist": "VA-02",
-"label": "VA-02 — Elaine Luria (D) vs Jen Kiggans (R)",
-"tokens": [
-"VA-02",
-"Elaine Luria",
-"Jen Kiggans"
-]
-},
-{
-"dist": "VA-05",
-"label": "VA-05 — Tom Perriello (D) vs John McGuire (R)",
-"tokens": [
-"VA-05",
-"Tom Perriello",
-"John McGuire"
-]
-},
-{
-"dist": "WA-03",
-"label": "WA-03 — Marie Gluesenkamp Perez (D) vs John Braun (R)",
-"tokens": [
-"WA-03",
-"Marie Gluesenkamp Perez",
-"John Braun"
-]
-},
-{
-"dist": "WI-01",
-"label": "WI-01 — Mitchell Berman (D) vs Bryan Steil (R)",
-"tokens": [
-"WI-01",
-"Mitchell Berman",
-"Bryan Steil"
-]
-},
-{
-"dist": "WI-03",
-"label": "WI-03 — Rebecca Cooke (D) vs Derrick Van Orden (R)",
-"tokens": [
-"WI-03",
-"Rebecca Cooke",
-"Derrick Van Orden"
-]
-},
-{
 "dist": "OC-D5",
-"label": "OC-D5 — Katrina Foley (D) vs Diane Dixon (R)",
+"label": "OC-D5, Katrina Foley (D) vs Diane Dixon (R)",
 "tokens": [
 "OC-D5",
 "Katrina Foley",
@@ -5910,7 +4837,7 @@
 },
 {
 "dist": "OC-D4",
-"label": "OC-D4 — Connor Traut (D) vs Tim Shaw (R)",
+"label": "OC-D4, Connor Traut (D) vs Tim Shaw (R)",
 "tokens": [
 "OC-D4",
 "Connor Traut",
@@ -5919,7 +4846,7 @@
 },
 {
 "dist": "CA-Gov",
-"label": "CA-Gov — Becerra (D) vs Steve Hilton (R)",
+"label": "CA-Gov, Becerra (D) vs Steve Hilton (R)",
 "tokens": [
 "CA-Gov",
 "Becerra",
@@ -5928,7 +4855,7 @@
 },
 {
 "dist": "AD-12",
-"label": "AD-12 — Eric Lucan (D) vs Jackie Elward (D) (same-party)",
+"label": "AD-12, Eric Lucan (D) vs Jackie Elward (D) (same-party)",
 "tokens": [
 "AD-12",
 "Eric Lucan",
@@ -5937,7 +4864,7 @@
 },
 {
 "dist": "CA-07",
-"label": "CA-07 — Doris Matsui (D) vs Mai Vang (D) (same-party)",
+"label": "CA-07, Doris Matsui (D) vs Mai Vang (D) (same-party)",
 "tokens": [
 "CA-07",
 "Doris Matsui",
@@ -5946,7 +4873,7 @@
 },
 {
 "dist": "CA-11",
-"label": "CA-11 — Scott Wiener (D) vs Connie Chan (D) (same-party)",
+"label": "CA-11, Scott Wiener (D) vs Connie Chan (D) (same-party)",
 "tokens": [
 "CA-11",
 "Scott Wiener",
@@ -5955,7 +4882,7 @@
 },
 {
 "dist": "CA-04",
-"label": "CA-04 — Mike Thompson (D) vs Eric Jones (D) (same-party)",
+"label": "CA-04, Mike Thompson (D) vs Eric Jones (D) (same-party)",
 "tokens": [
 "CA-04",
 "Mike Thompson",
@@ -5964,7 +4891,7 @@
 },
 {
 "dist": "CA-40",
-"label": "CA-40 — Ken Calvert (R) vs Young Kim (R) (same-party)",
+"label": "CA-40, Ken Calvert (R) vs Young Kim (R) (same-party)",
 "tokens": [
 "CA-40",
 "Ken Calvert",
@@ -5973,7 +4900,7 @@
 }
 ],
 "meta": {
-"count": 156,
+"count": 128,
 "note": "Illustrative voter narratives generated from district structure. Projections are the sealed statistical call; reasoning and what-if deltas are illustrative, not the forecast."
 }
 }

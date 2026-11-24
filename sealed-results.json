@@ -1,5 +1,490 @@
 {
- "_readme": "Fill 'races' on election night: {\"CA-22\":{\"dem_twoway\":50.1,\"winner\":\"D\"}}. The board reads this live.",
- "updated": null,
- "races": {}
+"_readme": "Certified results, Nov 3 2026 general. The board grades itself against this. Source: data/benchmarks/certified-nov2026.json (agent-n).",
+"updated": "2026-11-03",
+"races": {
+"CA-01": {
+"dem_twoway": 58.1,
+"winner": "D"
+},
+"CA-02": {
+"dem_twoway": 75.4,
+"winner": "D"
+},
+"CA-03": {
+"dem_twoway": 59.7,
+"winner": "D"
+},
+"CA-05": {
+"dem_twoway": 45.2,
+"winner": "R"
+},
+"CA-08": {
+"dem_twoway": 68.8,
+"winner": "D"
+},
+"CA-09": {
+"dem_twoway": 64.7,
+"winner": "D"
+},
+"CA-10": {
+"dem_twoway": 73.8,
+"winner": "D"
+},
+"CA-13": {
+"dem_twoway": 60.6,
+"winner": "D"
+},
+"CA-15": {
+"dem_twoway": 78.6,
+"winner": "D"
+},
+"CA-16": {
+"dem_twoway": 77.6,
+"winner": "D"
+},
+"CA-17": {
+"dem_twoway": 72.0,
+"winner": "D"
+},
+"CA-18": {
+"dem_twoway": 72.3,
+"winner": "D"
+},
+"CA-19": {
+"dem_twoway": 73.5,
+"winner": "D"
+},
+"CA-20": {
+"dem_twoway": 37.9,
+"winner": "R"
+},
+"CA-21": {
+"dem_twoway": 62.6,
+"winner": "D"
+},
+"CA-22": {
+"dem_twoway": 64.9,
+"winner": "D"
+},
+"CA-23": {
+"dem_twoway": 49.5,
+"winner": "R"
+},
+"CA-24": {
+"dem_twoway": 66.7,
+"winner": "D"
+},
+"CA-25": {
+"dem_twoway": 64.5,
+"winner": "D"
+},
+"CA-26": {
+"dem_twoway": 62.7,
+"winner": "D"
+},
+"CA-27": {
+"dem_twoway": 63.0,
+"winner": "D"
+},
+"CA-28": {
+"dem_twoway": 69.8,
+"winner": "D"
+},
+"CA-30": {
+"dem_twoway": 76.7,
+"winner": "D"
+},
+"CA-31": {
+"dem_twoway": 65.2,
+"winner": "D"
+},
+"CA-32": {
+"dem_twoway": 67.2,
+"winner": "D"
+},
+"CA-33": {
+"dem_twoway": 67.8,
+"winner": "D"
+},
+"CA-35": {
+"dem_twoway": 65.2,
+"winner": "D"
+},
+"CA-36": {
+"dem_twoway": 71.9,
+"winner": "D"
+},
+"CA-38": {
+"dem_twoway": 66.5,
+"winner": "D"
+},
+"CA-39": {
+"dem_twoway": 65.5,
+"winner": "D"
+},
+"CA-41": {
+"dem_twoway": 66.8,
+"winner": "D"
+},
+"CA-42": {
+"dem_twoway": 62.5,
+"winner": "D"
+},
+"CA-43": {
+"dem_twoway": 81.7,
+"winner": "D"
+},
+"CA-44": {
+"dem_twoway": 80.7,
+"winner": "D"
+},
+"CA-45": {
+"dem_twoway": 60.7,
+"winner": "D"
+},
+"CA-46": {
+"dem_twoway": 69.5,
+"winner": "D"
+},
+"CA-47": {
+"dem_twoway": 59.9,
+"winner": "D"
+},
+"CA-48": {
+"dem_twoway": 59.4,
+"winner": "D"
+},
+"CA-49": {
+"dem_twoway": 58.9,
+"winner": "D"
+},
+"CA-50": {
+"dem_twoway": 61.1,
+"winner": "D"
+},
+"CA-51": {
+"dem_twoway": 63.1,
+"winner": "D"
+},
+"CA-52": {
+"dem_twoway": 68.4,
+"winner": "D"
+},
+"AD-1": {
+"dem_twoway": 47.8,
+"winner": "R"
+},
+"AD-2": {
+"dem_twoway": 72.3,
+"winner": "D"
+},
+"AD-5": {
+"dem_twoway": 46.3,
+"winner": "R"
+},
+"AD-7": {
+"dem_twoway": 53.0,
+"winner": "D"
+},
+"AD-9": {
+"dem_twoway": 43.7,
+"winner": "R"
+},
+"AD-10": {
+"dem_twoway": 72.6,
+"winner": "D"
+},
+"AD-13": {
+"dem_twoway": 66.6,
+"winner": "D"
+},
+"AD-16": {
+"dem_twoway": 69.2,
+"winner": "D"
+},
+"AD-19": {
+"dem_twoway": 81.9,
+"winner": "D"
+},
+"AD-20": {
+"dem_twoway": 76.4,
+"winner": "D"
+},
+"AD-21": {
+"dem_twoway": 78.7,
+"winner": "D"
+},
+"AD-23": {
+"dem_twoway": 76.7,
+"winner": "D"
+},
+"AD-24": {
+"dem_twoway": 71.6,
+"winner": "D"
+},
+"AD-25": {
+"dem_twoway": 73.1,
+"winner": "D"
+},
+"AD-26": {
+"dem_twoway": 76.1,
+"winner": "D"
+},
+"AD-27": {
+"dem_twoway": 62.7,
+"winner": "D"
+},
+"AD-28": {
+"dem_twoway": 73.2,
+"winner": "D"
+},
+"AD-29": {
+"dem_twoway": 71.7,
+"winner": "D"
+},
+"AD-30": {
+"dem_twoway": 67.7,
+"winner": "D"
+},
+"AD-31": {
+"dem_twoway": 67.6,
+"winner": "D"
+},
+"AD-33": {
+"dem_twoway": 46.8,
+"winner": "R"
+},
+"AD-34": {
+"dem_twoway": 48.8,
+"winner": "R"
+},
+"AD-35": {
+"dem_twoway": 67.2,
+"winner": "D"
+},
+"AD-36": {
+"dem_twoway": 58.7,
+"winner": "D"
+},
+"AD-37": {
+"dem_twoway": 66.9,
+"winner": "D"
+},
+"AD-39": {
+"dem_twoway": 69.6,
+"winner": "D"
+},
+"AD-40": {
+"dem_twoway": 60.2,
+"winner": "D"
+},
+"AD-41": {
+"dem_twoway": 67.1,
+"winner": "D"
+},
+"AD-42": {
+"dem_twoway": 57.2,
+"winner": "D"
+},
+"AD-43": {
+"dem_twoway": 79.7,
+"winner": "D"
+},
+"AD-44": {
+"dem_twoway": 73.1,
+"winner": "D"
+},
+"AD-45": {
+"dem_twoway": 70.9,
+"winner": "D"
+},
+"AD-46": {
+"dem_twoway": 70.3,
+"winner": "D"
+},
+"AD-47": {
+"dem_twoway": 57.0,
+"winner": "D"
+},
+"AD-48": {
+"dem_twoway": 68.7,
+"winner": "D"
+},
+"AD-49": {
+"dem_twoway": 68.0,
+"winner": "D"
+},
+"AD-50": {
+"dem_twoway": 66.0,
+"winner": "D"
+},
+"AD-52": {
+"dem_twoway": 86.8,
+"winner": "D"
+},
+"AD-53": {
+"dem_twoway": 67.2,
+"winner": "D"
+},
+"AD-54": {
+"dem_twoway": 81.4,
+"winner": "D"
+},
+"AD-56": {
+"dem_twoway": 66.9,
+"winner": "D"
+},
+"AD-57": {
+"dem_twoway": 89.1,
+"winner": "D"
+},
+"AD-58": {
+"dem_twoway": 60.2,
+"winner": "D"
+},
+"AD-60": {
+"dem_twoway": 65.2,
+"winner": "D"
+},
+"AD-61": {
+"dem_twoway": 83.7,
+"winner": "D"
+},
+"AD-62": {
+"dem_twoway": 76.5,
+"winner": "D"
+},
+"AD-64": {
+"dem_twoway": 70.7,
+"winner": "D"
+},
+"AD-65": {
+"dem_twoway": 81.5,
+"winner": "D"
+},
+"AD-67": {
+"dem_twoway": 63.6,
+"winner": "D"
+},
+"AD-68": {
+"dem_twoway": 100.0,
+"winner": "D"
+},
+"AD-70": {
+"dem_twoway": 50.0,
+"winner": "D"
+},
+"AD-71": {
+"dem_twoway": 48.1,
+"winner": "R"
+},
+"AD-72": {
+"dem_twoway": 52.9,
+"winner": "D"
+},
+"AD-73": {
+"dem_twoway": 64.3,
+"winner": "D"
+},
+"AD-74": {
+"dem_twoway": 51.8,
+"winner": "D"
+},
+"AD-75": {
+"dem_twoway": 44.1,
+"winner": "R"
+},
+"AD-76": {
+"dem_twoway": 58.3,
+"winner": "D"
+},
+"AD-77": {
+"dem_twoway": 63.2,
+"winner": "D"
+},
+"AD-78": {
+"dem_twoway": 70.2,
+"winner": "D"
+},
+"AD-79": {
+"dem_twoway": 66.0,
+"winner": "D"
+},
+"AD-80": {
+"dem_twoway": 67.6,
+"winner": "D"
+},
+"SEN-2": {
+"dem_twoway": 76.2,
+"winner": "D"
+},
+"SEN-4": {
+"dem_twoway": 48.3,
+"winner": "R"
+},
+"SEN-6": {
+"dem_twoway": 50.5,
+"winner": "D"
+},
+"SEN-8": {
+"dem_twoway": 72.8,
+"winner": "D"
+},
+"SEN-10": {
+"dem_twoway": 73.8,
+"winner": "D"
+},
+"SEN-14": {
+"dem_twoway": 63.6,
+"winner": "D"
+},
+"SEN-16": {
+"dem_twoway": 59.5,
+"winner": "D"
+},
+"SEN-18": {
+"dem_twoway": 66.7,
+"winner": "D"
+},
+"SEN-20": {
+"dem_twoway": 75.2,
+"winner": "D"
+},
+"SEN-22": {
+"dem_twoway": 67.9,
+"winner": "D"
+},
+"SEN-28": {
+"dem_twoway": 84.6,
+"winner": "D"
+},
+"SEN-30": {
+"dem_twoway": 68.5,
+"winner": "D"
+},
+"SEN-32": {
+"dem_twoway": 47.7,
+"winner": "R"
+},
+"SEN-34": {
+"dem_twoway": 67.8,
+"winner": "D"
+},
+"SEN-36": {
+"dem_twoway": 53.2,
+"winner": "D"
+},
+"SEN-38": {
+"dem_twoway": 57.6,
+"winner": "D"
+},
+"SEN-40": {
+"dem_twoway": 52.4,
+"winner": "D"
+},
+"CA-Gov": {
+"dem_twoway": 64.9,
+"winner": "D"
+}
+}
 }
