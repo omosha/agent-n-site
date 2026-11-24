@@ -744,7 +744,7 @@
 
     <div class="board-live" id="boardLive">
       <span class="bl-dot"></span>
-      <span class="bl-text" id="blText">Sealed and locked. This board grades itself on November 3, in public, right or wrong.</span>
+      <span class="bl-text" id="blText">Sealed and locked. This board graded itself on November 3, in public, right or wrong.</span>
       <span class="bl-count" id="blCount"></span>
     </div>
 
@@ -757,7 +757,7 @@
     <div class="board-stats">
       <div class="bstat"><div class="bn">123</div><div class="bl">California races sealed, all grade Nov 3</div></div>
       <div class="bstat"><div class="bn">92<span>&middot;</span>17<span>&middot;</span>14</div><div class="bl">called D &middot; R &middot; toss-up</div></div>
-      <div class="bstat"><div class="bn">104<span>/</span>109</div><div class="bl">calls correct (95.4%)</div></div>
+      <div class="bstat"><div class="bn">104<span>/</span>109</div><div class="bl">calls correct, toss-ups excluded (95.4%)</div></div>
       <div class="bstat"><div class="bn">SHA-256</div><div class="bl">sealed Oct 13, re-hashable</div></div>
     </div>
     <div class="board-filters"><button class="fb active" data-f="all">All <span>123</span></button><button class="fb" data-f="CA U.S. House">CA House <span>42</span></button><button class="fb" data-f="CA State Legislature">CA State Leg <span>78</span></button><button class="fb" data-f="OC Supervisor">OC Supervisor <span>2</span></button><button class="fb" data-f="Governor">Governor <span>1</span></button><button class="fb" data-f="__toss">Toss-ups <span>14</span></button></div>
@@ -768,7 +768,7 @@
       </table>
     </div>
     <ul class="board-notes">
-      <li><b>How to read it.</b> Proj. D two-way is the Democratic share of the two-party vote in a neutral environment; swing range spans an R+3 to D+3 national environment. A band that crosses 50 is a toss-up, called honestly rather than forced. The Result column fills in on election night.</li>
+      <li><b>How to read it.</b> Proj. D two-way is the Democratic share of the two-party vote in a neutral environment; swing range spans an R+3 to D+3 national environment. A band that crosses 50 is a toss-up, called honestly rather than forced. Of the 14 races we called toss-up, 12 now have certified results; the other 2 (OC-D4 and OC-D5) are county races still counting toward the December 11 certification.</li>
       <li><b>Partisan races only.</b> Same-party contests and an independent special are flagged and NOT forecast, since a partisan model goes blind on a race with no clean D-vs-R two-way. Statewide Senate and Governor toplines are our documented weak spot and are not on this board.</li>
       <li><b>Data, exact.</b> The 2024 presidential anchor is exact-count (The Downballot series; CA from the official AB604 plan and the Statewide Database). Rosters freshness-checked October 13, 2026. For commercial use the CA anchor re-sources from SWDB, Census, and the adopted plan.</li>
       <li><b>This is the accuracy layer.</b> These 123 California races are the statistical forecast, Scoreboard 1. The reactive what-if engine, Scoreboard 2, is a separate product and is not represented in these numbers. See it below.</li>
@@ -968,8 +968,8 @@
         else{cell.innerHTML=s+'<span class="rp to">'+rc.winner+'</span>';}
       });
       var bl=document.getElementById('boardLive'),bt=document.getElementById('blText');
-      if(bl)bl.classList.add('live'); if(bt)bt.textContent='LIVE: grading against certified results as they land.';
-      if(blc)blc.textContent=hits+'/'+called+' calls correct';
+      if(bl)bl.classList.add('live'); if(bt)bt.textContent='Graded in public against certified California results.';
+      if(blc)blc.textContent=hits+'/'+called+' calls correct (toss-ups excluded)';
     }).catch(pre);
   })();
 </script>
@@ -1012,8 +1012,8 @@
         else{cell.innerHTML=s+'<span class="rp to">'+rc.winner+'</span>';}
       });
       var bl=document.getElementById('boardLive'),bt=document.getElementById('blText');
-      if(bl)bl.classList.add('live'); if(bt)bt.textContent='LIVE: grading against certified results as they land.';
-      if(blc)blc.textContent=hits+'/'+called+' calls correct';
+      if(bl)bl.classList.add('live'); if(bt)bt.textContent='Graded in public against certified California results.';
+      if(blc)blc.textContent=hits+'/'+called+' calls correct (toss-ups excluded)';
     }).catch(pre);
   })();
 </script>
@@ -1058,8 +1058,8 @@
         else{cell.innerHTML=s+'<span class="rp to">'+rc.winner+'</span>';}
       });
       var bl=document.getElementById('boardLive'),bt=document.getElementById('blText');
-      if(bl)bl.classList.add('live'); if(bt)bt.textContent='LIVE: grading against certified results as they land.';
-      if(blc)blc.textContent=hits+'/'+called+' calls correct';
+      if(bl)bl.classList.add('live'); if(bt)bt.textContent='Graded in public against certified California results.';
+      if(blc)blc.textContent=hits+'/'+called+' calls correct (toss-ups excluded)';
     }).catch(pre);
   })();
 </script>
